@@ -378,7 +378,7 @@ include_once './common/inc/header.php';
                             <div class="box-border padding30 double wow fadeInUp">
 
                                 <div class="text-center">
-                                    <img src="images/logo_light.png" alt="" />
+                                    <img src="images/logo_light_bkp.png" alt="" />
                                 </div>
 
                                 <div class="spacer-single"></div>
