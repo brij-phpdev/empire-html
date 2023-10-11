@@ -405,46 +405,7 @@ include_once './common/inc/database.php';
                         }
                         ?>
 
-                                <div class="sub-item-service">
-                                    <div class="c1">Beard Trim</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$25</div>
-                                </div>
-
-
-                                <div class="sub-item-service">
-                                    <div class="c1">Flat Top</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$45</div>
-                                </div>
-
-
-                                <div class="sub-item-service">
-                                    <div class="c1">Hairstyle</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$50</div>
-                                </div>
-
-
-                                <div class="sub-item-service">
-                                    <div class="c1">Hot Shave</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$20</div>
-                                </div>
-
-
-                                <div class="sub-item-service">
-                                    <div class="c1">Outline</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$35</div>
-                                </div>
-
-
-                                <div class="sub-item-service">
-                                    <div class="c1">Line Up</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$30</div>
-                                </div>
+                                
 
                             </div>
                         </div>
