@@ -12,9 +12,9 @@ include_once './common/inc/header.php';
                     <div class="de-video-content">
                         <div class="text-center">
                             <div class="spacer-double"></div>
-                            <h1 class="big-font">Real Gentleman</h1>
+                            <h1 class="big-font">The Empire Salon</h1>
                             <div class="teaser-text">
-                                Go To The Barber Haircut
+                                Embrace yourself with your new hairstyle
                             </div>
                             <div class="spacer-single"></div>
                             <a href="booking_post.php" class="btn-slider">Make Appointment</a>
