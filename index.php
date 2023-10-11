@@ -1,5 +1,7 @@
 <?php
 include_once './common/inc/header.php';
+include_once './common/inc/database.php';
+
 ?>
 
         <!-- content begin -->
@@ -383,12 +385,25 @@ include_once './common/inc/header.php';
 
                                 <div class="spacer-single"></div>
 
-                                <div class="sub-item-service">
-                                    <div class="c1">Haircut</div>
-                                    <div class="c2"></div>
-                                    <div class="c3">$40</div>
-                                </div>
+                                <?php
+                        $servicetable_sql = "SELECT * FROM `servicetable`";
+                        if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
+                            if (mysqli_num_rows($servicetable_res) > 0) {
 
+                                while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+                                    ?>
+                                <div class="sub-item-service">
+                                    <div class="c1"><?php echo $servicetable_row['title'] ?></div>
+                                    <div class="c2"></div>
+                                    <div class="c3">₹<?php echo $servicetable_row['price'] ?></div>
+                                </div>
+                                <?php
+                                }
+
+                                mysqli_free_result($servicetable_res);
+                            }
+                        }
+                        ?>
 
                                 <div class="sub-item-service">
                                     <div class="c1">Beard Trim</div>
