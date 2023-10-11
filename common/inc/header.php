@@ -95,7 +95,7 @@ define('FB_SOCIAL','https://www.facebook.com/empireagraindia/');
                                 <li><a href="services.php">Services</a></li>
                                 <li><a href="booking.php">Book</a></li>
                                 <li><a href="about.php">About Us</a></li>
-                                <!--<li><a href="news.php">News</a></li>-->
+                                <li><a href="https://shop.theroyal.org.in/en/" target="_blank" >Shop</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
