@@ -51,8 +51,9 @@ if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
     if (mysqli_num_rows($servicetable_res) > 0) {
 
         while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+            $selected = (isset($_GET['service']) && $_GET['service']==$servicetable_row['title']) ? 'selected="selected"' : '';
             ?>
-                                    <option value="<?php echo $servicetable_row['title'] ?>"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</option>
+                        <option <?php echo $selected ?> value="<?php echo $servicetable_row['title'] ?>"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</option>
                                     <?php
                                 }
 

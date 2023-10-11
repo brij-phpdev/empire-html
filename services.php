@@ -1,5 +1,6 @@
 <?php
 include_once './common/inc/header.php';
+include_once './common/inc/database.php';
 ?>
 
         <!-- subheader -->
@@ -20,9 +21,18 @@ include_once './common/inc/header.php';
             <section>
                 <div class="container">
                     <div class="row">
+                        
+                        <?php
+                        $servicetable_sql = "SELECT * FROM `servicetable`";
+                        if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
+                            if (mysqli_num_rows($servicetable_res) > 0) {
+
+                                while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+                                    ?>
+                        
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking.php">
+                                <a href="booking.php?service=<?php echo $servicetable_row['title'] ?>">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -30,105 +40,24 @@ include_once './common/inc/header.php';
                                     </span>
                                 </a>
 
-                                <img src="images/services/service-big-1.jpg" alt="" />
+                                <img src="<?php echo (SITE_BOOK_URL. '/application/uploads/img/'.$servicetable_row['image']) ?>" alt="" />
                             </div>
-
+                             
                             <div class="spacer-single"></div>
-                            <h3>Haircut <span class="id-color pull-right">$40</span></h3>
-                            <p>Our commitment to quality and services ensure our clients happy. With years of experiences, our dedicated staff is ready to serve your beauty needs. </p>
+                            <h3><?php echo $servicetable_row['title'] ?> <span class="id-color pull-right">₹<?php echo $servicetable_row['price'] ?></span></h3>
+                            <p><?php echo html_entity_decode($servicetable_row['description']) ?></p>
                             <div class="spacer-half"></div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="picframe">
-                                <a href="booking.php">
-                                    <span class="overlay">
-                                        <span class="pf_text">
-                                            <span class="project-name">Make Appointment</span>
-                                        </span>
-                                    </span>
-                                </a>
+                        <?php
+                                }
 
-                                <img src="images/services/service-big-2.jpg" alt="" />
-                            </div>
-                            <div class="spacer-single"></div>
-                            <h3>Hairstyle <span class="pull-right id-color">$50</span></h3>
-                            <p>Our commitment to quality and services ensure our clients happy. With years of experiences, our dedicated staff is ready to serve your beauty needs. </p>
-                            <div class="spacer-half"></div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="picframe">
-                                <a href="booking.php">
-                                    <span class="overlay">
-                                        <span class="pf_text">
-                                            <span class="project-name">Make Appointment</span>
-                                        </span>
-                                    </span>
-                                </a>
-
-                                <img src="images/services/service-big-3.jpg" alt="" />
-                            </div>
-                            <div class="spacer-single"></div>
-                            <h3>Flat Top <span class="id-color pull-right">$45</span></h3>
-                            <p>Our commitment to quality and services ensure our clients happy. With years of experiences, our dedicated staff is ready to serve your beauty needs. </p>
-                            <div class="spacer-half"></div>
-                        </div>
-
-
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="picframe">
-                                <a href="booking.php">
-                                    <span class="overlay">
-                                        <span class="pf_text">
-                                            <span class="project-name">Make Appointment</span>
-                                        </span>
-                                    </span>
-                                </a>
-
-                                <img src="images/services/service-big-4.jpg" alt="" />
-                            </div>
-                            <div class="spacer-single"></div>
-                            <h3>Beard Trim <span class="id-color pull-right">$25</span></h3>
-                            <p>Our commitment to quality and services ensure our clients happy. With years of experiences, our dedicated staff is ready to serve your beauty needs. </p>
-                            <div class="spacer-half"></div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="picframe">
-                                <a href="booking.php">
-                                    <span class="overlay">
-                                        <span class="pf_text">
-                                            <span class="project-name">Make Appointment</span>
-                                        </span>
-                                    </span>
-                                </a>
-
-                                <img src="images/services/service-big-5.jpg" alt="" />
-                            </div>
-                            <div class="spacer-single"></div>
-                            <h3>Outline <span class="id-color pull-right">$35</span></h3>
-                            <p>Our commitment to quality and services ensure our clients happy. With years of experiences, our dedicated staff is ready to serve your beauty needs. </p>
-                            <div class="spacer-single"></div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="picframe">
-                                <a href="booking.php">
-                                    <span class="overlay">
-                                        <span class="pf_text">
-                                            <span class="project-name">Make Appointment</span>
-                                        </span>
-                                    </span>
-                                </a>
-
-                                <img src="images/services/service-big-6.jpg" alt="" />
-                            </div>
-                            <div class="spacer-single"></div>
-                            <h3>Line Up <span class="id-color pull-right">$30</span></h3>
-                            <p>Our commitment to quality and services ensure our clients happy. With years of experiences, our dedicated staff is ready to serve your beauty needs. </p>
-                            <div class="spacer-half"></div>
-                        </div>
+                                mysqli_free_result($servicetable_res);
+                            }
+                        }
+                        ?>
+                        
+                        
 
                         <div class="clearfix"></div>
                     </div>
