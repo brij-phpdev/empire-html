@@ -126,6 +126,7 @@
 </body>
 </html>
 <?php
+@mysqli_close($link);
 // bin/magento setup:install --admin-firstname="Empire" --admin-lastname="Salon" --admin-email="mb.consulting.031220@gmail.com" --admin-user="empire_mbcs" --admin-password="Z{,W{-8I1F(V" --language=en_US --currency=INR --timezone=America/New_York
 
 // bin/magento setup:install --admin-firstname="Empire" --admin-lastname="salon" --admin-email="mb.consulting.031220@gmail.com" --admin-user="empire_mbcs" --admin-password="Z{,W{-8I1F(V" --language=en_US --currency=INR --timezone=America/New_York

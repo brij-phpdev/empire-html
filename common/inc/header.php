@@ -5,14 +5,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
  */
 
-define('SITE_URL','https://empire.icet.org.in/');
-define('EMAIL','mb.consulting.031220@gmail.com');
-define('PHONE','0562 400 0611');
-define('ADDRESS','2nd Floor, Shanti Emporio, Ramnagar Colony, Civil Lines, Agra, Uttar Pradesh 282002');
 
-define('INSTA_SOCIAL','https://www.instagram.com/empiresalonofficial/?hl=en');
-define('FB_SOCIAL','https://www.facebook.com/empireagraindia/');
-//include_once './database.php';
+include_once 'config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
