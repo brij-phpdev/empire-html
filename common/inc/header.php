@@ -84,6 +84,7 @@ include_once 'config.php';
                                 <li><a href="services.php">Services</a></li>
                                 <li><a href="booking.php">Book</a></li>
                                 <li><a href="contact.php">Contact</a></li>
+                                <!--<li><a href="iframe.php">Shop(i)</a></li>-->
                             </ul>
                         </nav>
                         <div class="clearfix"></div>

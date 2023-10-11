@@ -22,61 +22,82 @@ include_once './common/inc/database.php';
     <div class="container">
         <form name="form_booking" id='form_booking' class="deform-1" method="post" action="booking_post.php">
             <div class="row">
-                <div class="col-md-4">
-                    <h4>Personal Info</h4>
-                    <div class="tiny-border"><span></span></div>
-                    <div id='name_error' class='error'>Please enter your name.</div>
-                    <div>
-                        <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
-                    </div>
+                
 
-                    <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
-                    <div>
-                        <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
-                    </div>
-
-                    <div id='phone_error' class='error'>Please enter your phone number.</div>
-                    <div>
-                        <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
-                    </div>
-                </div>
-
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <h4>Services</h4>
                     <div class="tiny-border"><span></span></div>
-                    <select name="serviceTitle" id="select-services" multiple="multiple" class="form-control">
-<?php
-$servicetable_sql = "SELECT * FROM `servicetable`";
-if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
-    if (mysqli_num_rows($servicetable_res) > 0) {
+                    
+                    
+                    <div class="row text-center selector-img">
+                    <?php
+                    $servicetable_sql = "SELECT * FROM `servicetable`";
+                    if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
+                        if (mysqli_num_rows($servicetable_res) > 0) {
 
-        while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
-            $selected = (isset($_GET['service']) && $_GET['service']==$servicetable_row['title']) ? 'selected="selected"' : '';
-            ?>
-                        <option <?php echo $selected ?> value="<?php echo $servicetable_row['title'] ?>"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</option>
-                                    <?php
-                                }
+                            while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+                                $selected = (isset($_GET['service']) && $_GET['service']==$servicetable_row['title']) ? 'selected="selected"' : '';
+                                ?>
+                                            <!--<div class="card"><?php // echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</div>-->
+<!--                                            <label class="col-md-3 col-sm-2 col-xs-4">
+                                        
+                                        <?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)
+                                        <span class="spacer-half"></span>
+                                            </label>-->
+                        
+                        
+                        
+                        <div class="list-group col-md-4 col-sm-2 col-xs-4">
+            <a class="list-group-item ">
+               
+              <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</h4>
+              <p class="list-group-item-text"><?php echo html_entity_decode($servicetable_row['description']) ?></p>
+              <input type="radio" name="serviceTitle" value="<?php echo $servicetable_row['title'] ?>" />
+            </a>
+          </div>
+                        
+                                                        <?php
+                                                    }
 
-                                mysqli_free_result($servicetable_res);
-                            }
-                        }
+                                                    mysqli_free_result($servicetable_res);
+                                                }
+                                            }
+                        ?>
+                    </div>
+                    
+                    <select name="serviceTitle" id="select-services" multiple="multiple" class="form-control hidden">
+                    <?php
+                    $servicetable_sql = "SELECT * FROM `servicetable`";
+                    if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
+                        if (mysqli_num_rows($servicetable_res) > 0) {
+
+                            while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+                                $selected = (isset($_GET['service']) && $_GET['service']==$servicetable_row['title']) ? 'selected="selected"' : '';
+                                ?>
+                                            <option <?php echo $selected ?> value="<?php echo $servicetable_row['title'] ?>"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</option>
+                                                        <?php
+                                                    }
+
+                                                    mysqli_free_result($servicetable_res);
+                                                }
+                                            }
                         ?>
 
                     </select>
 
                     <span class="spacer-half"></span>
-                    Hold &lt;ctrl&gt; to select multiple item
+                    <!--Hold &lt;ctrl&gt; to select multiple item-->
                     <div class="spacer-single"></div>
 
                     <h4>Stylist</h4>
                     <div class="tiny-border"><span></span></div>
                     <div class="row text-center selector-img">
-<?php
-$agent_sql = "SELECT * FROM `agents`";
-if ($res = mysqli_query($link, $agent_sql)) {
-    if (mysqli_num_rows($res) > 0) {
-        while ($row = mysqli_fetch_array($res)) {
-            ?>
+                    <?php
+                    $agent_sql = "SELECT * FROM `agents`";
+                    if ($res = mysqli_query($link, $agent_sql)) {
+                        if (mysqli_num_rows($res) > 0) {
+                            while ($row = mysqli_fetch_array($res)) {
+                                ?>
                                     <label class="col-md-3 col-sm-2 col-xs-4">
                                         <input type="radio" name="stylist" value="<?php echo $row['agentName'] ?>" />
                                         <?php
@@ -96,6 +117,8 @@ if ($res = mysqli_query($link, $agent_sql)) {
                     </div>
 
                 </div>
+                
+                
 
                 <div class="col-md-4">
                     <h4>Prefered Date &amp; Time</h4>
@@ -130,6 +153,26 @@ if ($res = mysqli_query($link, $agent_sql)) {
                         <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
                     </div>
                 </div>
+                
+                
+                <div class="col-md-4">
+                    <h4>Personal Info</h4>
+                    <div class="tiny-border"><span></span></div>
+                    <div id='name_error' class='error'>Please enter your name.</div>
+                    <div>
+                        <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
+                    </div>
+
+                    <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                    <div>
+                        <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
+                    </div>
+
+                    <div id='phone_error' class='error'>Please enter your phone number.</div>
+                    <div>
+                        <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
+                    </div>
+                </div>
 
                 <div class="spacer-double"></div>
 
@@ -140,6 +183,10 @@ if ($res = mysqli_query($link, $agent_sql)) {
                     <div id='mail_success' class='success'>Your message has been sent successfully.</div>
                     <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
                 </div>
+            </div>
+            
+            <div class="col-md-12">
+                
             </div>
         </form>
     </div>
