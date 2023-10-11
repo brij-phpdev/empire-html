@@ -22,7 +22,7 @@ include_once './common/inc/header.php';
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking_post.php">
+                                <a href="booking.php">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -41,7 +41,7 @@ include_once './common/inc/header.php';
 
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking_post.php">
+                                <a href="booking.php">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -59,7 +59,7 @@ include_once './common/inc/header.php';
 
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking_post.php">
+                                <a href="booking.php">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -78,7 +78,7 @@ include_once './common/inc/header.php';
 
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking_post.php">
+                                <a href="booking.php">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -96,7 +96,7 @@ include_once './common/inc/header.php';
 
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking_post.php">
+                                <a href="booking.php">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -114,7 +114,7 @@ include_once './common/inc/header.php';
 
                         <div class="col-md-4 col-sm-6 col-xs-6">
                             <div class="picframe">
-                                <a href="booking_post.php">
+                                <a href="booking.php">
                                     <span class="overlay">
                                         <span class="pf_text">
                                             <span class="project-name">Make Appointment</span>
@@ -138,7 +138,7 @@ include_once './common/inc/header.php';
 
             <!-- section begin -->
             <section id="cta" aria-label="cta" class="call-to-action bg-color-2 text-center">
-                <a href="booking_post.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
+                <a href="booking.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
             </section>
             <!-- section close -->
 

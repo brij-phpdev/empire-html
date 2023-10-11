@@ -17,7 +17,7 @@ include_once './common/inc/header.php';
                                 Embrace yourself with your new hairstyle
                             </div>
                             <div class="spacer-single"></div>
-                            <a href="booking_post.php" class="btn-slider">Make Appointment</a>
+                            <a href="booking.php" class="btn-slider">Make Appointment</a>
                         </div>
                     </div>
 
@@ -445,7 +445,7 @@ include_once './common/inc/header.php';
 
             <!-- section begin -->
             <section id="cta" aria-label="cta" class="call-to-action bg-color-2 text-center">
-                <a href="booking_post.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
+                <a href="booking.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
             </section>
             <!-- section close -->
 

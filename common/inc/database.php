@@ -1,20 +1,21 @@
 <?php
 
 error_reporting(E_ALL);
-$hostname = 'localhost';
-$username = 'u397536656_salon_book_usr';
-$password = '8}_!.)%%A$tnh65@20232209';
-$database = 'u397536656_salon_booking';
+$hostname = '62.72.28.103';
+$username = 'u963541063_salon_bkng_usr';
+$password = '8}_!.)%%Atnh65@11Oct23';
+$database = 'u963541063_salon_booking';
 
 
 $link = mysqli_connect($hostname, $username, $password, $database); 
-  
+var_dump($link);  
 if ($link === false) { 
     die("ERROR: Could not connect. "
                 .mysqli_connect_error()); 
 } 
   
 $sql = "SELECT * FROM `agents`";
+echo $sql;die;
 if ($res = mysqli_query($link, $sql)) { 
     if (mysqli_num_rows($res) > 0) { 
         echo "<table>"; 
@@ -26,7 +27,7 @@ if ($res = mysqli_query($link, $sql)) {
         while ($row = mysqli_fetch_array($res)) { 
             echo "<tr>"; 
             echo "<td>".$row['agentName']."</td>"; 
-//            echo "<td>".$row['Lastname']."</td>"; 
+            echo "<td>".$row['Lastname']."</td>"; 
             echo "<td>".$row['Age']."</td>"; 
             echo "</tr>"; 
         } 

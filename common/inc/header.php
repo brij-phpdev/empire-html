@@ -12,7 +12,7 @@ define('ADDRESS','2nd Floor, Shanti Emporio, Ramnagar Colony, Civil Lines, Agra,
 
 define('INSTA_SOCIAL','https://www.instagram.com/empiresalonofficial/?hl=en');
 define('FB_SOCIAL','https://www.facebook.com/empireagraindia/');
-
+//include_once './database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -84,14 +84,7 @@ define('FB_SOCIAL','https://www.facebook.com/empireagraindia/');
                         <!-- mainmenu begin -->
                         <nav>
                             <ul id="mainmenu">
-                                <li><a href="index.php">Home</a>
-<!--                                    <ul>
-                                        <li><a href="index.php">Homepage 1</a></li>
-                                        <li><a href="index-2.php">Homepage 2</a></li>
-                                        <li><a href="index-coming-soon-1.php">Coming Soon 1</a></li>
-                                        <li><a href="index-coming-soon-2.php">Coming Soon 2</a></li>
-                                    </ul>-->
-                                </li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li><a href="https://shop.theroyal.org.in/en3/cogito3" target="_blank" >Shop</a></li>
                                 <li><a href="services.php">Services</a></li>
