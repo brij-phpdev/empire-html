@@ -25,8 +25,8 @@ include_once './common/inc/header.php';
 
                     <!-- load your video here -->
                     <video autoplay="" loop="" muted="" poster="images/video-poster.jpg">
-                        <source src="https://video-previews.elements.envatousercontent.com/h264-video-previews/92f21c7f-9cdf-498c-928f-91546136cef2/38814560.mp4" type="video/mp4" />
-                        <!--<source src="http://themenesia.com/video/barber_1.webm" type="video/webm" />-->
+                        <source src="assets/video/close-up-of-female-hairdresser-makes-hairstyle.mp4" type="video/mp4" />
+                        <source src="assets/video/close-up-of-female-hairdresser-makes-hairstyle.webm" type="video/webm" />
                     </video>
 
                 </div>
