@@ -25,8 +25,10 @@ include_once './common/inc/header.php';
 
                     <!-- load your video here -->
                     <video autoplay="" loop="" muted="" poster="images/video-poster.jpg">
-                        <source src="assets/video/close-up-of-female-hairdresser-makes-hairstyle.mp4" type="video/mp4" />
-                        <source src="assets/video/close-up-of-female-hairdresser-makes-hairstyle.webm" type="video/webm" />
+                        <source src="assets/video/empire-v.mp4" type="video/mp4" />
+                        <source src="assets/video/empire-v.webm" type="video/webm" />
+<!--                        <source src="assets/video/close-up-of-female-hairdresser-makes-hairstyle.mp4" type="video/mp4" />
+                        <source src="assets/video/close-up-of-female-hairdresser-makes-hairstyle.webm" type="video/webm" />-->
                     </video>
 
                 </div>
