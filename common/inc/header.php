@@ -92,10 +92,10 @@ define('FB_SOCIAL','https://www.facebook.com/empireagraindia/');
                                         <li><a href="index-coming-soon-2.php">Coming Soon 2</a></li>
                                     </ul>-->
                                 </li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="https://shop.theroyal.org.in/en3/cogito3" target="_blank" >Shop</a></li>
                                 <li><a href="services.php">Services</a></li>
                                 <li><a href="booking.php">Book</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="https://shop.theroyal.org.in/en/" target="_blank" >Shop</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
