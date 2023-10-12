@@ -121,6 +121,51 @@
     <script type="text/javascript">
         $('#date').datepicker();
     </script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            
+            $("#step-2").hide();
+            $("#step-3").hide();
+            $("#step-4").hide();
+            
+            $(".service-title").on("click",function(){
+                var service = $(this).attr('id');
+//                alert(service);
+                $("#serviceTitle").val(service);
+                $("#step-1").hide();
+                $("#step-2").show();
+            });
+            
+            $(".agentSelect").on("click",function(){
+                var agent = $(this).val();
+//                alert(service);
+                $("#agentName").val(agent);
+                $("#step-2").hide();
+                $("#step-3").show();
+            });
+            
+            $("#next-user-info").on("click",function(){
+                $("#step-3").hide();
+                $("#step-4").show();
+            });
+            
+            
+            
+        });
+        
+        function serviceSelection(){
+            
+            var service = $(this).attr('id');
+            console.log($(this));
+            
+            
+            
+        }
+        
+        
+        
+    </script>
 
 
 </body>
