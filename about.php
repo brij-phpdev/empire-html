@@ -65,7 +65,7 @@ include_once './common/inc/header.php';
 
 
             <!-- section begin -->
-            <section id="section-stylist">
+            <section id="section-stylist" style="display: none;" class="hidden">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3 text-center">

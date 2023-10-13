@@ -5,14 +5,24 @@
         <group>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/query.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/database.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/thankyou.html</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/failure.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/sample-payment</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/css/style.css</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/payment.html</file>
             <file>file:/Applications/XAMPP/htdocs/empire/iframe.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/about.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/booking.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/index.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/bkp/database.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/js/validation-reservation.js</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/header.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/services.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/css/bg.css</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/footer.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/payu.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/css/bootstrap.css</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/success.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/.gitignore</file>
             <file>file:/Applications/XAMPP/htdocs/empire/booking_post.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/config.php</file>
