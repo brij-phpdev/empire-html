@@ -7,8 +7,8 @@
 
 define('SITE_URL','https://empire.theroyal.org.in');
 define('SITE_BOOK_URL','https://empirebook.theroyal.org.in');
-define('EMAIL','mb.consulting.031220@gmail.com');
-define('PHONE','0562 400 0611');
+define('EMAIL','empiresalonagra@gmail.com');
+define('PHONE','098970 33321');
 define('ADDRESS','2nd Floor, Shanti Emporio, Ramnagar Colony, Civil Lines, Agra, Uttar Pradesh 282002');
 
 define('INSTA_SOCIAL','https://www.instagram.com/empiresalonofficial/?hl=en');

@@ -4006,7 +4006,8 @@ width:90%;
 }
 
 .service-item a{
-text-decoration:none;	
+text-decoration:none;
+cursor: progress;
 }
 
 .sub-item-service{
@@ -5063,3 +5064,5 @@ float:none;
 	}
 	.team img.team-pic{max-width:300px;}
 	}
+
+        .picframe a{ text-decoration:none; }

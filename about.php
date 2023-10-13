@@ -176,7 +176,7 @@ include_once './common/inc/header.php';
 
             <!-- section begin -->
             <section id="cta" aria-label="cta" class="call-to-action bg-color-2 text-center">
-                <a href="booking.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
+                <a href="services.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
             </section>
             <!-- section close -->
 

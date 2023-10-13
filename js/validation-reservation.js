@@ -1,6 +1,6 @@
  $(document).ready(function(){
         $('#send_message').click(function(e){
-            
+
             //Stop form submission & check the validation
             e.preventDefault();
             
@@ -68,6 +68,7 @@
                          $('#submit').remove();
                         //Display the success message
                         $('#mail_success').fadeIn(500);
+                        window.location.href = 'payscript.php';
                     }else{
                         //Display the error message
                         $('#mail_fail').fadeIn(500);

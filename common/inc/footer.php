@@ -146,6 +146,8 @@
             });
             
             $("#next-user-info").on("click",function(){
+//                validate if fields are empty..
+                
                 $("#step-3").hide();
                 $("#step-4").show();
             });
@@ -167,7 +169,7 @@
         
     </script>
 
-
+    
 </body>
 </html>
 <?php

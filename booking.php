@@ -24,18 +24,36 @@ include_once './common/inc/database.php';
 
 
                 <div class="col-md-12">
+
                     <div id="step-1" class="row text-center selector-img">
-                        <h4>Services</h4>
-                        <div class="tiny-border"><span></span></div>
+                        
+
+                        
+                        <div class="col-md-12">
+                            <div class="de_tab tab_style_2">
+                                <ul class="de_nav">
+                                    <li class="active" data-link="#section-services-tab"><span>Threading</span><div class="v-border"></div>
+                                    </li>
+                                    <li data-link="#section-services-tab"><span>Haircut</span><div class="v-border"></div>
+                                    </li>
+<!--                                    <li data-link="#section-services-tab"><span>Our Expertise</span><div class="v-border"></div>
+                                    </li>-->
+                                </ul>
+
+                                <div class="de_tab_content">
+
+                                    <div id="tab1" class="tab_single_content">
+                                        <div class="row">
 
 
+                                            <!--<div class="col-md-4 col-sm-4 col-xs-6">-->
+                                            <div class="service-item">
 
-                        <?php
-                        $servicetable_sql = "SELECT * FROM `servicetable`";
+                                                <?php
+                        $servicetable_sql = "SELECT * FROM `servicetable` WHERE `category_id`='2'";
                         if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
                             if (mysqli_num_rows($servicetable_res) > 0) {
-
-                                while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                                     $selected = (isset($_GET['service']) && $_GET['service'] == $servicetable_row['title']) ? 'selected="selected"' : '';
                                     ?>
                                     <!--<div class="card"><?php // echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</div>-->
@@ -50,7 +68,7 @@ include_once './common/inc/database.php';
                                     <div class="list-group col-md-4 col-sm-2 col-xs-4">
                                         <a class="list-group-item service-title" id="<?php echo $servicetable_row['id'] ?>" >
 
-                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</h4>
+                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> <span class="id-color pull-right">₹<?php echo $servicetable_row['price'] ?></span></h4>
                                             <p class="list-group-item-text"><?php echo html_entity_decode($servicetable_row['description']) ?></p>
                                             <!--<input type="radio" onclick="serviceSelection(this)" name="serviceTitle" value="<?php echo $servicetable_row['title'] ?>" />-->
                                         </a>
@@ -63,18 +81,48 @@ include_once './common/inc/database.php';
                             }
                         }
                         ?>
-                    </div>
+<!--                                                <a href="service-details-1.php">
+                                                    <img src="images/services/service-big-1.jpg" alt="" class="pic-grey" />
+                                                    <h3>Haircut</h3>
+                                                </a>-->
 
-                    <select name="serviceTitle" id="select-services" multiple="multiple" class="form-control hidden">
-                        <?php
-                        $servicetable_sql = "SELECT * FROM `servicetable`";
+                                            </div>
+                                        <!--</div>-->
+
+
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab2" class="tab_single_content">
+
+                                        <div class="service-item">
+
+                                                <?php
+                        $servicetable_sql = "SELECT * FROM `servicetable` WHERE `category_id`='1'";
                         if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
                             if (mysqli_num_rows($servicetable_res) > 0) {
-
-                                while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
+while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                                     $selected = (isset($_GET['service']) && $_GET['service'] == $servicetable_row['title']) ? 'selected="selected"' : '';
                                     ?>
-                                    <option <?php echo $selected ?> value="<?php echo $servicetable_row['title'] ?>"><?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</option>
+                                    <!--<div class="card"><?php // echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)</div>-->
+                                    <!--                                            <label class="col-md-3 col-sm-2 col-xs-4">
+                                                                            
+                                    <?php echo $servicetable_row['title'] ?> (₹<?php echo $servicetable_row['price'] ?>)
+                                                                            <span class="spacer-half"></span>
+                                                                                </label>-->
+
+
+
+                                    <div class="list-group col-md-4 col-sm-2 col-xs-4">
+                                        <a class="list-group-item service-title" id="<?php echo $servicetable_row['id'] ?>" >
+
+                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> <span class="id-color pull-right">₹<?php echo $servicetable_row['price'] ?></span></h4>
+                                            <p class="list-group-item-text"><?php echo html_entity_decode($servicetable_row['description']) ?></p>
+                                            <!--<input type="radio" onclick="serviceSelection(this)" name="serviceTitle" value="<?php echo $servicetable_row['title'] ?>" />-->
+                                        </a>
+                                    </div>
+
                                     <?php
                                 }
 
@@ -82,8 +130,66 @@ include_once './common/inc/database.php';
                             }
                         }
                         ?>
+<!--                                                <a href="service-details-1.php">
+                                                    <img src="images/services/service-big-1.jpg" alt="" class="pic-grey" />
+                                                    <h3>Haircut</h3>
+                                                </a>-->
 
-                    </select>
+                                            </div>
+
+
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div id="tab3" class="tab_single_content">
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
+                                            <div class="service-item">
+
+                                                <a href="service-details-1.php">
+                                                    <img src="images/services/service-big-1.jpg" alt="" class="pic-grey" />
+                                                    <h3>Haircut</h3>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
+                                            <div class="service-item">
+
+                                                <a href="service-details-2.php">
+                                                    <img src="images/services/service-big-2.jpg" alt="" class="pic-grey" />
+                                                    <h3>Hairstyle</h3>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
+                                            <div class="service-item">
+
+                                                <a href="service-details-3.php">
+                                                    <img src="images/services/service-big-3.jpg" alt="" class="pic-grey" />
+                                                    <h3>Flat Top</h3>
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="spacer-single"></div>
+                                        <div class="text-center"><a href="services.php" class="btn-slider">View All Services</a></div>
+
+
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+
+                        
                 </div>
 
                 <span class="spacer-half"></span>
@@ -157,12 +263,12 @@ include_once './common/inc/database.php';
                         <div class="row">
                             <div class="col-md-6">
 
-                                <label for="">Adults</label>
+                                <label for="adultsVal">Adults</label>
                                 <input id="adultsVal" class="form-control" type="number" value="0" min="1" step="1" name="serviceAdult" >
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="">Childrens</label>
+                                    <label for="childVal">Childrens</label>
                                     <input id="childVal" class="form-control" type="number" value="0" min="0" step="1" name="serviceChildren" >
                                 </div>
                             </div>
@@ -209,12 +315,13 @@ include_once './common/inc/database.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 hidden">
+            <div class="col-md-12">
                 <input type="text" name="serviceId" id="serviceTitle" value=""/>
                 <input type="text" name="agentId" id="agentName" value=""/>
             </div>
-        </form>
-    </div>
+        
+        </div>
+            </form>
 </div>
 
 
