@@ -43,10 +43,9 @@ include_once './common/inc/database.php';
                                 <div class="de_tab_content">
 
                                     <div id="tab1" class="tab_single_content">
-                                        <div class="row">
 
 
-                                            <!--<div class="col-md-4 col-sm-4 col-xs-6">-->
+                                            
                                             <div class="service-item">
 
                                                 <?php
@@ -91,7 +90,7 @@ while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
 
 
                                             <div class="clearfix"></div>
-                                        </div>
+
                                     </div>
 
                                     <div id="tab2" class="tab_single_content">
@@ -141,46 +140,7 @@ while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                                         <div class="clearfix"></div>
                                     </div>
 
-                                    <div id="tab3" class="tab_single_content">
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="service-item">
-
-                                                <a href="service-details-1.php">
-                                                    <img src="images/services/service-big-1.jpg" alt="" class="pic-grey" />
-                                                    <h3>Haircut</h3>
-                                                </a>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="service-item">
-
-                                                <a href="service-details-2.php">
-                                                    <img src="images/services/service-big-2.jpg" alt="" class="pic-grey" />
-                                                    <h3>Hairstyle</h3>
-                                                </a>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-4 col-xs-6">
-                                            <div class="service-item">
-
-                                                <a href="service-details-3.php">
-                                                    <img src="images/services/service-big-3.jpg" alt="" class="pic-grey" />
-                                                    <h3>Flat Top</h3>
-                                                </a>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="spacer-single"></div>
-                                        <div class="text-center"><a href="services.php" class="btn-slider">View All Services</a></div>
-
-
-                                        <div class="clearfix"></div>
-                                    </div>
+                                    
 
                                 </div>
 
@@ -315,15 +275,15 @@ while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
-                <input type="text" name="serviceId" id="serviceTitle" value=""/>
-                <input type="text" name="agentId" id="agentName" value=""/>
+            <div class="col-md-12 hidden">
+                <input type="hidden" name="serviceId" id="serviceTitle" value=""/>
+                <input type="hidden" name="agentId" id="agentName" value=""/>
             </div>
         
         </div>
             </form>
 </div>
-
+</div>
 
 <?php
 include_once './common/inc/footer.php';

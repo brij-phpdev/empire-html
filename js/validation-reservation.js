@@ -1,6 +1,6 @@
  $(document).ready(function(){
         $('#send_message').click(function(e){
-
+            
             //Stop form submission & check the validation
             e.preventDefault();
             
@@ -41,20 +41,21 @@
             }else{
                 $('#phone').removeClass("error_input");
             }
-            if(!$('#select-services').val()) {
-                var error = true;				
-                $('#select-services').addClass("error_input");
-            }else{
-                $('#select-services').removeClass("error_input");
-				// alert(services);
-            }
+//            if(!$('#select-services').val()) {
+//                var error = true;				
+//                $('#select-services').addClass("error_input");
+//            }else{
+//                $('#select-services').removeClass("error_input");
+//				// alert(services);
+//            }
 			if(date.length == 0){
                 var date = true;
                 $('#date').addClass("error_input");
             }else{
                 $('#date').removeClass("error_input");
             }
-			
+//		alert(error);	
+//		console.log(error);	
             // If there is no validation error, next to process the mail function
             if(error == false){
                // Disable submit button just after the form processed 1st time successfully.
@@ -68,7 +69,7 @@
                          $('#submit').remove();
                         //Display the success message
                         $('#mail_success').fadeIn(500);
-                        window.location.href = 'payscript.php';
+                        window.location.href = 'payu.php';
                     }else{
                         //Display the error message
                         $('#mail_fail').fadeIn(500);

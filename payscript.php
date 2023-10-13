@@ -15,7 +15,7 @@ $address = 'agra';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirm to Pay</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="css/pay.css">
 </head>
 
 <body>
@@ -29,9 +29,25 @@ $address = 'agra';
     </div>
 
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    
+    <script type="text/javascript">
+    window.onload=function(){
+        var auto = setTimeout(function(){ autoRefresh(); }, 100);
+
+        function submitform(){
+          document.forms["myForm"].submit();
+        }
+
+        function autoRefresh(){
+           clearTimeout(auto);
+           auto = setTimeout(function(){ submitform(); autoRefresh(); }, 10000);
+        }
+    }
+</script>
+    
     <script>
         var options = {
-            "key": "Your API Key Here", // Enter the Key ID generated from the Dashboard
+            "key": "", // Enter the Key ID generated from the Dashboard
             "amount": "<?php echo $total * 100; ?>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
             "currency": "INR",
             "name": "Empire Saloon",
