@@ -82,7 +82,7 @@ include_once 'config.php';
                                 <li><a href="about.php">About Us</a></li>
                                 <li><a href="https://shop.theroyal.org.in/en3/cogito3" target="_blank" >Shop</a></li>
                                 <li><a href="services.php">Services</a></li>
-                                <!--<li><a href="booking.php">Book</a></li>-->
+                                <li><a href="education.php">Education</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                                 <!--<li><a href="iframe.php">Shop(i)</a></li>-->
                             </ul>

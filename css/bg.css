@@ -35,6 +35,15 @@ background-size: 100% !important;
 background:#151515 !important;
 }
 
+/* section with side background image */
+#education-1,#education-2,#education-4{background:#eee;}
+#education-1.side-bg .background-image {background:url(../images/background/hairdressers-styling-women-hair-in-beauty-salon-2022-08-02-01-53-23-utc.jpg) top;}
+#education-2.side-bg .background-image {background:url(../images/background/hairdresser-doing-blowout-hairstyle-for-client-in-2022-01-13-00-43-56-utc.jpg) top;}
+#education-3.side-bg .background-image {background:url(../images/background/salon-services-hairdresser-with-braids-2023-08-01-02-05-30-utc.jpg) top;}
+#education-4.side-bg .background-image {background:url(../images/background/bg-side-4.jpg) top;}
+#education-4{
+background:#151515 !important;
+}
 
 
 /* background settings for file index-coming-soon-1html */
