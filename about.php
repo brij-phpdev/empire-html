@@ -1,5 +1,6 @@
 <?php
 include_once './common/inc/header.php';
+include_once './common/inc/database.php';
 ?>
         <!-- subheader -->
         <section id="subheader" class="subh-center" data-stellar-background-ratio=".2">
@@ -143,12 +144,42 @@ include_once './common/inc/header.php';
 
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3 text-center">
-                            <h1>Fun Facts</h1>
+                            <h1>Our Stylists</h1>
                             <div class="small-border wow zoomIn" data-wow-delay=".3s" data-wow-duration=".3s"></div>
                             <div class="spacer-single"></div>
                         </div>
 
-                        <div class="col-md-4 wow fadeIn" data-wow-delay="0">
+                    </div>
+                        
+                        
+                    <!--<div class="tiny-border"><span></span></div>-->
+                    <div class="row text-center selector-img">
+                        <?php
+                        $agent_sql = "SELECT * FROM `agents`";
+                        if ($res = mysqli_query($link, $agent_sql)) {
+                            if (mysqli_num_rows($res) > 0) {
+                                while ($row = mysqli_fetch_array($res)) {
+                                    ?>
+                                    <div class="col-md-3 col-sm-2 col-xs-4" data-wow-delay="0">
+                                        
+                                        <?php
+                                        //data:image/jpg;charset=utf-8;base64,
+                                        ?>
+                                        <img src="<?php echo (SITE_BOOK_URL . '/application/uploads/img/agents/' . $row['agentImage']) ?>" alt="" class="img-responsive img-circle">
+                                        <span class="spacer-half"></span>
+                                        <?php echo $row['agentName'] ?>
+                                    </div>
+                                    <?php
+                                }
+                                mysqli_free_result($res);
+                            }
+                        }
+                        ?>
+
+                    </div>
+
+                        
+<!--                        <div class="col-md-4 wow fadeIn" data-wow-delay="0">
                             <div class="de_count">
                                 <h3 class="timer" data-to="90" data-speed="1">0</h3>
                                 <span>Years of Experience</span>
@@ -167,7 +198,7 @@ include_once './common/inc/header.php';
                                 <h3 class="timer" data-to="180" data-speed="2500">0</h3>
                                 <span>Beards Trims</span>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
 
                 </div>
