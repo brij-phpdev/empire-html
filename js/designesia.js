@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	'use strict';				// use strict mode
 	
 	// editable value
-	var logo_pos				= 1; // logo position; 1 - center, 2 - left
+	var logo_pos				= 2; // logo position; 1 - center, 2 - left
 	var logo_dir_1				= 'images/logo.png'; // change with your logo path
 	var logo_dir_2				= 'images/logo_light.png'; // change with your logo path (for light background)
 	var logo_center_top_margin	= '4px'; // define margin top for 'center' logo image
@@ -129,8 +129,11 @@ jQuery(document).ready(function() {
 		}
 	});
 	
-
-	
+        
+//        jQuery('.simple-ajax-popup').magnificPopup({
+//            type: 'ajax'
+//        });
+		
 
 	// wow jquery
 		

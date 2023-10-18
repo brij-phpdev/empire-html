@@ -67,7 +67,7 @@ while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                                     <div class="list-group col-md-4 col-sm-2 col-xs-4">
                                         <a class="list-group-item service-title" id="<?php echo $servicetable_row['id'] ?>" >
 
-                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> <span class="id-color pull-right">₹<?php echo $servicetable_row['price'] ?></span></h4>
+                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> </h4>
                                             <p class="list-group-item-text"><?php echo html_entity_decode($servicetable_row['description']) ?></p>
                                             <!--<input type="radio" onclick="serviceSelection(this)" name="serviceTitle" value="<?php echo $servicetable_row['title'] ?>" />-->
                                         </a>
@@ -116,7 +116,7 @@ while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                                     <div class="list-group col-md-4 col-sm-2 col-xs-4">
                                         <a class="list-group-item service-title" id="<?php echo $servicetable_row['id'] ?>" >
 
-                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> <span class="id-color pull-right">₹<?php echo $servicetable_row['price'] ?></span></h4>
+                                            <h4 class="list-group-item-heading"><?php echo $servicetable_row['title'] ?> </h4>
                                             <p class="list-group-item-text"><?php echo html_entity_decode($servicetable_row['description']) ?></p>
                                             <!--<input type="radio" onclick="serviceSelection(this)" name="serviceTitle" value="<?php echo $servicetable_row['title'] ?>" />-->
                                         </a>
@@ -167,7 +167,7 @@ while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
                                 while ($row = mysqli_fetch_array($res)) {
                                     ?>
                                     <label class="col-md-3 col-sm-2 col-xs-4">
-                                        <input class="agentSelect" type="radio" name="stylist" value="<?php echo $row['id'] ?>" /><?php echo $row['agentName'] ?>
+                                        <input class="agentSelect" selected="selected" type="radio" name="stylist" value="<?php echo $row['id'] ?>" /><?php echo $row['agentName'] ?>
                                         <?php
                                         //data:image/jpg;charset=utf-8;base64,
                                         ?>

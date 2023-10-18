@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="widget widget_recent_post">
                             <h3>About</h3>
                             <article>
@@ -19,19 +19,19 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <h3>We're Open</h3>
                         <span class="tiny-border"></span>
                         <div class="widget">
                             <div class="box-border double">
                                 <ul class="list-border-bottom">
                                     <li>
-                                        <span class="pull-left">Monday - Tuesday</span>
+                                        <span class="pull-left">Mon - Tues</span>
                                         <span class="pull-right id-color">2 pm to 6 pm</span>
                                         <div class="clearfix"></div>
                                     </li>
                                     <li>
-                                        <span class="pull-left">Wednesday - Sunday</span>
+                                        <span class="pull-left">Wed - Sun</span>
                                         <span class="pull-right id-color">11 am to 7:30 pm</span>
                                         <div class="clearfix"></div>
                                     </li>
@@ -48,16 +48,27 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <h3>Contact Us</h3>
                         <div class="widget widget-address">
                             <address>
-                                <span><?php echo ADDRESS ?></span>
-                                <span><strong>Phone:</strong><?php echo PHONE ?></span>
+                                <span><strong>Address:</strong> <?php echo nl2br(ADDRESS) ?></span>
+                                <span><strong>Phone:</strong><a title="click to call" href="tel:<?php echo PHONE ?>"><?php echo PHONE ?></a></span>
                                 <!--<span><strong>Fax:</strong>(208) 333 9298</span>-->
                                 <span><strong>Email:</strong><a href="mailto:<?php echo EMAIL ?>"><?php echo EMAIL ?></a></span>
-                                <span><strong>Web:</strong><a href="<?php echo SITE_URL ?>"><?php echo SITE_URL ?></a></span>
+                                
+                                
                             </address>
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        
+                        <div class="widget widget-address">
+                            <span><strong>WhatsApp:</strong></span>
+                            <br/>
+                            <img src="images/empire/wa.link.png" class="img-responsive">
                         </div>
                     </div>
 
@@ -75,6 +86,7 @@
                             <div class="social-icons">
                                 <a href="<?php echo FB_SOCIAL ?>"><i class="fa fa-facebook fa-lg"></i></a>
                                 <a href="<?php echo INSTA_SOCIAL ?>"><i class="fa fa-instagram fa-lg"></i></a>
+                                <a href="<?php echo YOUTUBE_SOCIAL ?>"><i class="fa fa-youtube fa-lg"></i></a>
 <!--                                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-skype fa-lg"></i></a>
@@ -91,6 +103,85 @@
     </div>
 
 
+    <!--SMS implementation start-->
+    <div class="container" style="display: none;">
+
+                    <div id="gallery" class="gallery zoom-gallery wow fadeInUp gallery-col" data-wow-delay=".3s">
+                        <div class="row">
+
+
+                            <!-- gallery item -->
+                            <div class="col-md-12 item">
+                                <div class="picframe">
+                                    <a href="images/gallery/pf%20(1).jpg" title="Hair Style 1">
+                                        <span class="overlay">
+                                            <span class="pf_text">
+                                                Hello
+                                                <!--<span class="project-name">Hair Style 1</span>-->
+                                            </span>
+                                        </span>
+                                        <!--<a class="verifyOTP" href="#" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a>-->
+                                        HELLO
+                                        <!--<img src="images/gallery/pf%20(1).jpg" alt="" />-->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    
+    <div id="popupLogin" style="display:none" class="wow fadeInUp " >
+    <div class="simple-ajax-popup" id="popuploginbox1" >
+        <div class='waitSpinner'> </div>
+        <p style="display: none;" class="fancy_msg  alert">
+            
+        </p>
+        <div style="display:none" id="mobile_otp_error" class="error"></div>
+        <div id="popuplogincontainer" >
+            <div class=" " id="divsendmobileotp">
+
+                <h3>Enter your mobile to get OTP</h3>
+                <p id="plsreghere"class="title_block">No account yet ? Please enter your mobile here!</p><br />
+
+                <div class="form-group row">
+                    <label for="mobile_otp" class="col-sm-4 control-label" id="mobile_otp" >Mobile Number : </label>
+                    <div class="col-sm-12">
+                        <input type="text" class="mobile_otp_input form-control" value="" placeholder="Mobile Number" name="mobile_otp" id="mobile_otp">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p class="sent-otp-fastsms_submit">
+                        <button id="sent-otp-fastsms" class="button btn btn-success" value="Get OTP">Get OTP</button>
+                        `
+                    </p>
+                </div>
+
+                <div class="mobile_sms_otp">
+                    <div class="form-group row">
+                        <label for="mobile_sms" class="col-sm-4 control-label" id="mobile_sms" >Enter OTP: </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="mobile_sms_input form-control" placeholder="Enter OTP" value="" name="mobile_sms" id="mobile_sms">                           
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button id="verify-otp-fastsms" class="button btn btn-success" value="Verify OTP">Verify OTP</button>
+                    </div>
+                </div>    
+
+            </div><br />
+            <div class="clearfix"></div>
+
+        </div>                
+    </div>
+    <div class="clearfix"></div>
+    
+
+    
+
+
+                    <div class="clearfix"></div>
+</div>
+    <!--SMS implementation close-->
 
     <!-- Javascript Files
     ================================================== -->
@@ -134,13 +225,15 @@
 //                alert(service);
                 $("#serviceTitle").val(service);
                 $("#step-1").hide();
-                $("#step-2").show();
+//                $("#step-2").show();// skipping to direct prefered time instead of slecting agent
+                $("#step-3").show();
             });
             
             $(".agentSelect").on("click",function(){
                 var agent = $(this).val();
 //                alert(service);
-                $("#agentName").val(agent);
+//                $("#agentName").val(agent);
+                $("#agentName").val('0');
                 $("#step-2").hide();
                 $("#step-3").show();
             });
@@ -168,7 +261,7 @@
         
         
     </script>
-
+    <script src="js/callSendSMS.js"></script>
     
 </body>
 </html>

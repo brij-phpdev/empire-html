@@ -30,7 +30,8 @@ background-size: 100% !important;
 #explore-1.side-bg .background-image {background:url(../images/background/bg-side-2.jpg) top;}
 #explore-2.side-bg .background-image {background:url(../images/background/bg-side-1.jpg) top;}
 #explore-3.side-bg .background-image {background:url(../images/background/bg-side-1.jpg) top;}
-#explore-4.side-bg .background-image {background:url(../images/background/bg-side-4.jpg) top;}
+/*#explore-4.side-bg .background-image {background:url(../images/background/bg-side-4.jpg) top;}*/
+#explore-4.side-bg .background-image {background:url(../images/background/service-big-1-girls.jpg) top;}
 #explore-4{
 background:#151515 !important;
 }
