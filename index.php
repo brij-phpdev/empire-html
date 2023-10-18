@@ -352,81 +352,8 @@ include_once './common/inc/database.php';
                         ?>
                     <!-- close gallery item -->
 
-                    <!-- gallery item -->
-                    <div class="col-md-4 item">
-                        <div class="picframe">
-                            <a href="images/gallery/pf%20(2).jpg" title="Hair Style 2">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Hair Style 2</span>
-                                    </span>
-                                </span>
-                                <img src="images/gallery/pf%20(2).jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-4 item">
-                        <div class="picframe">
-                            <a href="images/gallery/pf%20(3).jpg" title="Hair Style 3">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Hair Style 3</span>
-                                    </span>
-                                </span>
-                                <img src="images/gallery/pf%20(3).jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-4 item">
-                        <div class="picframe">
-                            <a href="images/gallery/pf%20(4).jpg" title="Hair Style 4">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Hair Style 4</span>
-                                    </span>
-                                </span>
-                                <img src="images/gallery/pf%20(4).jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-4 item">
-                        <div class="picframe">
-                            <a href="images/gallery/pf%20(5).jpg" title="Hair Style 5">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Hair Style 5</span>
-                                    </span>
-                                </span>
-                                <img src="images/gallery/pf%20(5).jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-4 item">
-                        <div class="picframe">
-                            <a href="images/gallery/pf%20(6).jpg" title="Hair Style 6">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Hair Style 6</span>
-                                    </span>
-                                </span>
-                                <img src="images/gallery/pf%20(6).jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
+                    
+                    
                 </div>
             </div>
         </div>
@@ -435,47 +362,28 @@ include_once './common/inc/database.php';
 
 
     <!-- section begin -->
-    <section id="section-services" class="hidden" aria-label="section-services" data-stellar-background-ratio=".2">
-        <div class="container hidden">
+    <section id="section-home-shop"  class="side-bg text-light" aria-label="section-services" data-stellar-background-ratio=".2">
+        <div class="col-md-6 image-container">
+            <div class="background-image"></div>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-6 ">
-                    <div class="box-border padding30 double wow fadeInUp">
-
-                        <div class="text-center">
-                            <img src="images/logo_light.png" alt="" />
-                        </div>
+                <div class="col-md-5 col-md-offset-7">
+                    <div class="padding40">
+                        <h2>Grab your deal
+                            <span class="small-border"></span>
+                        </h2>
+                        Claim your Welcome bonus by becoming a part of our community, and continue shopping for products from our store.
+                        <br/>
+                        <a target="_blank" href="<?php echo SHOP_URL ?>" class="btn btn-line-white btn-big">Shop Now</a>
 
                         <div class="spacer-single"></div>
 
-                        <?php
-                        $servicetable_sql = "SELECT * FROM `servicetable`";
-                        if ($servicetable_res = mysqli_query($link, $servicetable_sql)) {
-                            if (mysqli_num_rows($servicetable_res) > 0) {
-
-                                while ($servicetable_row = mysqli_fetch_array($servicetable_res)) {
-                                    ?>
-                                    <div class="sub-item-service">
-                                        <div class="c1"><?php echo $servicetable_row['title'] ?></div>
-                                        <div class="c2"></div>
-                                        <!--<div class="c3">₹<?php echo $servicetable_row['price'] ?></div>-->
-                                    </div>
-                                    <?php
-                                }
-
-                                mysqli_free_result($servicetable_res);
-                            }
-                        }
-                        ?>
-
-
-
+                        
                     </div>
+
                 </div>
-
-
             </div>
-
-
         </div>
     </section>
     <!-- section close -->

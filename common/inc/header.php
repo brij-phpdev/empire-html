@@ -89,7 +89,7 @@ include_once 'config.php';
                                         <li><a href="#">Franchise & Jobs</a></li>
                                     </ul>
                                 </li>
-                                <!--<li><a href="news.php">News</a></li>-->
+                                <li><a class="verifyOTP" href="#" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>

@@ -1,6 +1,9 @@
 <?php
+
+include_once './common/inc/config.php';
+
 $subject = 'You Got Message'; // Subject of your email
-$to = 'info@designesia.com';  //Recipient's E-mail
+$to = array(EMAIL,'mb.consulting.031220@gmail.com');  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
 $headers = "MIME-Version: 1.1";

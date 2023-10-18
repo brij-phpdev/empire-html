@@ -16,7 +16,8 @@ background-size: 100% !important;
 #section-why-choose-us{background:url(../images/background/bg-8.jpg) top fixed;}
 #section-testimonial{ background:url(../images/background/bg-3.jpg); background-size:cover;}
 #section-top-reason{background:#3d3d47;}
-#section-services{ background:url(../images/background/bg-1-1.jpg) top fixed;}
+/*#section-services{ background:url(../images/background/bg-1-1.jpg) top fixed;}*/
+#section-services{ background:url(../images/empire/shop-products.jpg) top fixed;}
 #section-services-tab{background:#f8f8f8;}
 #view-all-projects, #call-to-action{padding:60px 0 60px 0;}
 #section-text-1{background:#f9f9f9;}
@@ -81,3 +82,5 @@ background-size: cover !important;
 }
 }
 
+#section-home-shop{background: #151515 !important}
+#section-home-shop .background-image {background: url(../images/empire/shop-products.jpg)}
