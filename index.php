@@ -321,20 +321,35 @@ include_once './common/inc/database.php';
             <div id="gallery" class="gallery zoom-gallery wow fadeInUp gallery-col" data-wow-delay=".3s">
                 <div class="row">
 
+                    <?php
+                    $gallery_dir = 'images/gallery/';
+                    
+                    if(is_dir( $gallery_dir)):
+                            $gallery_files = array_diff(scandir($gallery_dir), array('.', '..','.DS_Store'));
+//                            shuffle($gallery_files);
+                            if (count($gallery_files)):
+                                foreach ($gallery_files as $k => $gallery_file):
+                                
+                                    ?>
 
                     <!-- gallery item -->
                     <div class="col-md-4 item">
                         <div class="picframe">
-                            <a href="images/gallery/pf%20(1).jpg" title="Hair Style 1">
+                            <a href="<?php echo $gallery_dir . $gallery_file ?>" title="Hair Style 1">
                                 <span class="overlay">
                                     <span class="pf_text">
-                                        <span class="project-name">Hair Style 1</span>
+                                        <span class="project-name">Style 1</span>
                                     </span>
                                 </span>
-                                <img src="images/gallery/pf%20(1).jpg" alt="" />
+                                <img src="<?php echo $gallery_dir . $gallery_file ?>" alt="" />
                             </a>
                         </div>
                     </div>
+                    <?php
+                                endforeach;
+                            endif;
+                        endif;
+                        ?>
                     <!-- close gallery item -->
 
                     <!-- gallery item -->
