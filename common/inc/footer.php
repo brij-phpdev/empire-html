@@ -68,7 +68,7 @@
                         <div class="widget widget-address">
                             <span><strong>WhatsApp:</strong></span>
                             <br/>
-                            <img src="images/empire/wa.link.png" class="img-responsive">
+                            <a target="_blank" href="<?php echo WHATSAPP_URL ?>"><img src="images/empire/wa.link.png" class="img-responsive"></a>
                         </div>
                     </div>
 

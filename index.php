@@ -145,7 +145,7 @@ include_once './common/inc/database.php';
                             <div id="tab1" class="tab_single_content">
 
                                 <div class="col-md-6 image-container">
-                                    <img class="img-responsive" src="images/empire/reception-with-staff.JPG" />
+                                    <img class="img-responsive" src="images/empire/our_experts.jpeg" />
                                 </div>
                                 <div class="col-md-6">
                                     <!--<h2>Empire Salon</h2>-->
@@ -220,7 +220,7 @@ include_once './common/inc/database.php';
                                     <div class="service-item">
 
                                         <a href="booking.php?service=Haircut">
-                                            <img src="images/services/service-big-1.jpg" alt="" class="pic-grey" />
+                                            <img src="images/services/service-big-1-1.jpeg" alt="" class="pic-grey" />
                                             <h3>Hairstyle</h3>
                                         </a>
 
@@ -420,10 +420,10 @@ include_once './common/inc/database.php';
 
 
     <!-- section begin -->
-    <section id="section-services" aria-label="section-services" data-stellar-background-ratio=".2">
-        <div class="container">
+    <section id="section-services" class="hidden" aria-label="section-services" data-stellar-background-ratio=".2">
+        <div class="container hidden">
             <div class="row">
-                <div class="col-md-6 col-md-offset-6">
+                <div class="col-md-6 col-md-offset-6 ">
                     <div class="box-border padding30 double wow fadeInUp">
 
                         <div class="text-center">

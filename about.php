@@ -150,8 +150,8 @@ include_once './common/inc/header.php';
 
                         <div class="col-md-4 wow fadeIn" data-wow-delay="0">
                             <div class="de_count">
-                                <h3 class="timer" data-to="8250" data-speed="2500">0</h3>
-                                <span>Haircuts</span>
+                                <h3 class="timer" data-to="90" data-speed="1">0</h3>
+                                <span>Years of Experience</span>
                             </div>
                         </div>
 
