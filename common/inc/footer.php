@@ -138,7 +138,7 @@
         </p>
         <div style="display:none" id="mobile_otp_error" class="error"></div>
         <div id="popuplogincontainer" >
-            <div class=" " id="divsendmobileotp">
+            <div class=" " id="divsendmobileotp" style="display: none;">
 
                 <h3>Enter your mobile to get OTP</h3>
                 <p id="plsreghere"class="title_block">No account yet ? Please enter your mobile here!</p><br />

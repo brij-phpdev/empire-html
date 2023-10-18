@@ -79,16 +79,16 @@ include_once 'config.php';
                         <nav>
                             <ul id="mainmenu">
                                 <li><a href="index.php">Home</a>
-                                    <ul>
-                                        <li><a href="index.php">Homepage 1</a></li>
-                                        <li><a href="index-2.php">Homepage 2</a></li>
-                                        <li><a href="index-coming-soon-1.php">Coming Soon 1</a></li>
-                                        <li><a href="index-coming-soon-2.php">Coming Soon 2</a></li>
-                                    </ul>
+                                    
                                 </li>
                                 <!--<li><a href="services.php">Services</a></li>-->
                                 <li><a href="booking.php">Book</a></li>
-                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="about.php">About Us</a>
+                                <ul>
+                                        <li><a href="education.php">Education</a></li>
+                                        <li><a href="#">Franchise & Jobs</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="news.php">News</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
