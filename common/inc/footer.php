@@ -104,20 +104,20 @@
 
 
     <!--SMS implementation start-->
-    <div class="container" style="display: none;">
+    <div class="container" >
 
-                    <div id="gallery" class="gallery zoom-gallery wow fadeInUp gallery-col" data-wow-delay=".3s">
+                    <div id="gallery" class=" zoom-gallery wow fadeInUp gallery-col" data-wow-delay=".3s">
                         <div class="row">
 
 
                             <!-- gallery item -->
                             <div class="col-md-12 item">
                                 <div class="picframe">
-                                    <a href="images/gallery/pf%20(1).jpg" title="Hair Style 1">
+                                    <a href="" title="Hair Style 1">
                                         <span class="overlay">
                                             <span class="pf_text">
                                                 Hello
-                                                <!--<span class="project-name">Hair Style 1</span>-->
+                                                <span class="project-name">Hair Style 1</span>
                                             </span>
                                         </span>
                                         <!--<a class="verifyOTP" href="#" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a>-->
@@ -130,57 +130,64 @@
                     </div>
     </div>
     
-    <div id="popupLogin" style="display:none" class="wow fadeInUp " >
-    <div class="simple-ajax-popup" id="popuploginbox1" >
-        <div class='waitSpinner'> </div>
-        <p style="display: none;" class="fancy_msg  alert">
-            
-        </p>
-        <div style="display:none" id="mobile_otp_error" class="error"></div>
-        <div id="popuplogincontainer" >
-            <div class=" " id="divsendmobileotp" style="display: none;">
+    
+    
+    <div class="html-code">
+        
+        <div id="test-popup" class="white-popup mfp-hide">
+   <div id="sms-popup"  >
 
-                <h3>Enter your mobile to get OTP</h3>
-                <p id="plsreghere"class="title_block">No account yet ? Please enter your mobile here!</p><br />
+            <div class='waitSpinner'> </div>
+            <p style="display: block;" class="fancy_msg  alert">
 
-                <div class="form-group row">
-                    <label for="mobile_otp" class="col-sm-4 control-label" id="mobile_otp" >Mobile Number : </label>
-                    <div class="col-sm-12">
-                        <input type="text" class="mobile_otp_input form-control" value="" placeholder="Mobile Number" name="mobile_otp" id="mobile_otp">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <p class="sent-otp-fastsms_submit">
-                        <button id="sent-otp-fastsms" class="button btn btn-success" value="Get OTP">Get OTP</button>
-                        `
-                    </p>
-                </div>
+            </p>
+            <div id="mobile_otp_error" class="error"></div>
+            <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+            <div id="popuplogincontainer" >
+                <div class="white-popup" id="divsendmobileotp">
 
-                <div class="mobile_sms_otp">
+                    <h3>Enter your mobile to get OTP</h3>
+                    <!--<p id="plsreghere"class="title_block">No account yet ? Please enter your mobile here!</p><br />-->
+
                     <div class="form-group row">
-                        <label for="mobile_sms" class="col-sm-4 control-label" id="mobile_sms" >Enter OTP: </label>
-                        <div class="col-sm-8">
-                            <input type="text" class="mobile_sms_input form-control" placeholder="Enter OTP" value="" name="mobile_sms" id="mobile_sms">                           
+                        <label for="mobile_otp" class="col-sm-4 hidden control-label" id="mobile_otp" >Mobile Number : </label>
+                        <div class="col-sm-12">
+                            <input type="text" class="mobile_otp_input form-control" value="" placeholder="Mobile Number" name="mobile_otp" id="mobile_otp">
                         </div>
                     </div>
                     <div class="form-group">
-                        <button id="verify-otp-fastsms" class="button btn btn-success" value="Verify OTP">Verify OTP</button>
+                        <p class="sent-otp-fastsms_submit">
+                            <button id="sent-otp-fastsms" class="button btn btn-success" value="Get OTP">Get OTP</button>
+                            `
+                        </p>
                     </div>
-                </div>    
 
-            </div><br />
-            <div class="clearfix"></div>
+                    <div class="mobile_sms_otp">
+                        <div class="form-group row">
+                            <label for="mobile_sms" class="col-sm-4 hidden control-label" id="mobile_sms" >Enter OTP: </label>
+                            <div class="col-sm-8">
+                                <input type="text" class="mobile_sms_input form-control" placeholder="Enter OTP" value="" name="mobile_sms" id="mobile_sms">                           
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button id="verify-otp-fastsms" class="button btn btn-success" value="Verify OTP">Verify OTP</button>
+                        </div>
+                    </div>    
 
-        </div>                
+                </div><br />
+                <div class="clearfix"></div>
+
+            </div>                
+            </div>                
+            </div>                
+        <div class="clearfix"></div>
     </div>
-    <div class="clearfix"></div>
-    
-
-    
-
-
-                    <div class="clearfix"></div>
 </div>
+        
+   
+    </div>
+    
     <!--SMS implementation close-->
 
     <!-- Javascript Files
@@ -261,6 +268,20 @@
         
         
     </script>
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function() {
+          
+        $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+      });
+
+      });
+    
+    </script>
+    
     <script src="js/callSendSMS.js"></script>
     
 </body>

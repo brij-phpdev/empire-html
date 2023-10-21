@@ -3,11 +3,16 @@ jQuery(document).ready(function ($) {
 //window.location.href = $("ul.menu-content li.verifyOTP a").attr("href");
 
     
+    $('.open-popup-link').magnificPopup({
+                type:'inline',
+                midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+          });
+    
     $(".waitSpinner").hide();
     console.log('what is going on');
 
 
-    var $smsLink = $("a.verifyOTP");
+    var $smsLink = $("a.verifyOTPw");
     var $smsLinkHref = $smsLink.attr('href');
     $smsLink.attr('href', 'javascript:void(0)');
     $smsLink.attr('data-link', $smsLinkHref);
@@ -29,6 +34,7 @@ jQuery(document).ready(function ($) {
     });
 
     $("#sent-otp-fastsms").on("click", function () {
+        alert('herer'); 
         sendFastSMSOTP($smsLinkHref);
     });
 });
@@ -119,9 +125,8 @@ function verifyMobileOTP($smsLinkHref) {
                 createCookie('otppopup', 'no', 30);
                 $("#popupLogin").stop().slideToggle('slow');
                 // redirect to the href 
-//                window.location.href = $("ul.menu-content li.verifyOTP a").attr("href");
                 setTimeout(function () {
-                    window.location.href = $("ul.menu-content li.verifyOTP a").attr("data-link");
+                    window.location.href = $("a.verifyOTP").attr("data-link");
                 }, 3000); //will call the function after 3 secs.
 
 //                window.location.href = $smsLinkHref;
@@ -144,9 +149,9 @@ function showPopUp()
 //    alert('wantedCookie' + wantedCookie);
     
     if(typeof wantedCookie === "undefined"){
-        alert('here');
+        alert('here undefined');
 //        $("#popupLogin").stop().slideToggle('slow');
-        $("#popupLogin").magnificPopup({});
+          
         return false;
     }
     if(wantedCookie==='no'){

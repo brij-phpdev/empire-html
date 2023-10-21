@@ -13,11 +13,11 @@
             <file>file:/Applications/XAMPP/htdocs/empire/booking.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/bkp/database.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/js/callSendSMS.js</file>
-            <file>file:/Applications/XAMPP/htdocs/empire/fonts/elegant_font/HTML_CSS/index.html</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/header.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/services.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/payu.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/css/bootstrap.css</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/contact.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/index-2.html</file>
             <file>file:/Applications/XAMPP/htdocs/empire/failure.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/payment.html</file>
@@ -33,6 +33,7 @@
             <file>file:/Applications/XAMPP/htdocs/empire/common/sql/sms_api_log.sql</file>
             <file>file:/Applications/XAMPP/htdocs/empire/education.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/config.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/email.php</file>
         </group>
     </open-files>
 </project-private>

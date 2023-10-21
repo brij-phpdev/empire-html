@@ -941,6 +941,35 @@ footer {
 	margin:0;
 	}
 
+        
+                .picframe a{ text-decoration:none; }
+        
+        .white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#popuplogincontainer{
+        background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.mobile_sms_otp{display: none;}
+
 /* ================================================== */
 /* products */
 /* ================================================== */
@@ -5065,4 +5094,3 @@ float:none;
 	.team img.team-pic{max-width:300px;}
 	}
 
-        .picframe a{ text-decoration:none; }
