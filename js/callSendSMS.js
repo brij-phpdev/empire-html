@@ -34,7 +34,6 @@ jQuery(document).ready(function ($) {
     });
 
     $("#sent-otp-fastsms").on("click", function () {
-        alert('herer'); 
         sendFastSMSOTP($smsLinkHref);
     });
 });
@@ -46,8 +45,9 @@ function sendFastSMSOTP($smsLinkHref) {
     var mobile = $(".mobile_otp_input").val();
 //        alert(mobile);
     $.ajax({
-        url: baseDir + 'module/fast2sms/action',
+        url: 'sendSMS.php',
         dataType: 'json',
+        type:'POST',
         data: {
             action: 'sent_mobile_otp',
             mobile: mobile,

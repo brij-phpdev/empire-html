@@ -22,3 +22,5 @@ define('DB_HOST','62.72.28.103');
 define('DB_USER_NAME','u963541063_salon_bkng_usr');
 define('DB_USER_PASSWORD','8}_!.)%%Atnh65@11Oct23');
 define('DB_NAME','u963541063_salon_booking');
+
+define('FAST2SMS_API_KEY','KI80VaOYdrLA5Tm1ZyqucxW6ifsoXRNSD2CBPhtJpkw7Q9bGHFpLIyMKFiASc09DgbdH7wtoWOTU8keZ');

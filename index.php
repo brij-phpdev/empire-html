@@ -99,7 +99,7 @@ include_once './common/inc/database.php';
                 <div class="row">
 
  <div class="col-md-8 video-container">
-                        <iframe width="760" height="415" src="https://www.youtube.com/embed/G1Azty7B9A0?si=spGnwzPKOgcvFapT" title="The Empire - trending" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!--<iframe width="760" height="415" src="https://www.youtube.com/embed/G1Azty7B9A0?si=spGnwzPKOgcvFapT" title="The Empire - trending" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
                     </div>
                     
                     <!-- gallery item -->

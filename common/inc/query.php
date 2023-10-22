@@ -31,3 +31,7 @@
 //    echo "ERROR: Could not able to execute $sql. "
 //                                .mysqli_error($link); 
 //} 
+
+
+
+//                //CREATE TABLE `ps_fast2sms` (`id` INT NOT NULL AUTO_INCREMENT , `mobile` VARCHAR(15) NULL , `sent_otp` VARCHAR(8) NULL , `shop_id` INT(11) NULL DEFAULT '0' , `ip_address` VARCHAR(30) NULL , `user_agent` VARCHAR(100) NULL , `api_response` LONGTEXT NULL , `error` VARCHAR(255) NULL , `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
