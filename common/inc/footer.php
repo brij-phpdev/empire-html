@@ -103,33 +103,7 @@
     </div>
 
 
-    <!--SMS implementation start-->
-    <div class="container" >
-
-                    <div id="gallery" class=" zoom-gallery wow fadeInUp gallery-col" data-wow-delay=".3s">
-                        <div class="row">
-
-
-                            <!-- gallery item -->
-                            <div class="col-md-12 item">
-                                <div class="picframe">
-                                    <a href="" title="Hair Style 1">
-                                        <span class="overlay">
-                                            <span class="pf_text">
-                                                Hello
-                                                <span class="project-name">Hair Style 1</span>
-                                            </span>
-                                        </span>
-                                        <!--<a class="verifyOTP" href="#" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a>-->
-                                        HELLO
-                                        <!--<img src="images/gallery/pf%20(1).jpg" alt="" />-->
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    </div>
-    
+    <!--SMS implementation start--> 
     
     
     <div class="html-code">

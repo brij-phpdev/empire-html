@@ -201,7 +201,7 @@ include_once './common/inc/database.php';
                         </div>-->
                     </div>
 
-                </div>
+                
             </section>
             <!-- section close -->
 

@@ -99,13 +99,13 @@ include_once './common/inc/database.php';
                 <div class="row">
 
  <div class="col-md-8 video-container">
-                        <!--<iframe width="760" height="415" src="https://www.youtube.com/embed/G1Azty7B9A0?si=spGnwzPKOgcvFapT" title="The Empire - trending" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+                        <iframe width="760" height="415" src="https://www.youtube.com/embed/G1Azty7B9A0?si=spGnwzPKOgcvFapT" title="The Empire - trending" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     
                     <!-- gallery item -->
 <div class="col-md-4 pull-right">
                     
-                        <h2>Foam Loak
+                        <h2>Foam Look
                             <span class="small-border"></span>
                         </h2>
     <p class="text-justify">Foam Look Under Salon & Beauty is a modern and trendy beauty establishment that offers a wide range of services dedicated to enhancing one's appearance and overall well-being. Located in the heart of Agra, this salon has quickly gained a reputation for its commitment to excellence and customer satisfaction.

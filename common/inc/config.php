@@ -1,10 +1,5 @@
 <?php
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
-
 define('SITE_URL','https://empire.theroyal.org.in');
 define('SITE_BOOK_URL','https://empirebook.theroyal.org.in');
 define('SHOP_URL','https://shop.theroyal.org.in/en3/cogito3');

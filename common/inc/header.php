@@ -1,12 +1,9 @@
 <?php
 error_reporting(E_ALL);
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
 
-
+//echo getenv('HTTP_CLIENT_IP');
 include_once 'config.php';
+include_once 'functions.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -86,25 +83,14 @@ include_once 'config.php';
                                 <li><a href="about.php">About Us</a>
                                 <ul>
                                         <li><a href="education.php">Education</a></li>
-                                        <li><a href="#">Franchise & Jobs</a></li>
+                                        <li><a href="franchise.php">Franchise</a></li>
+                                        <li><a href="jobs.php">Jobs</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="verifyOTP open-popup-link" href="#popuplogincontainer" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
-<!--                        <nav>
-                            <ul id="mainmenu">
-                                <li><a href="index.php">Home</a></li>
-                                <ul>
-                                <li><a href="about.php">About Us</a></li>
-                                </ul>
-                                <li><a class="verifyOTP" href="#" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a></li>
-                                <li><a href="services.php">Services</a></li>
-                                <li><a href="education.php">Education</a></li>
-                                <li><a href="contact.php">Contact</a></li>
-                            </ul>
-                        </nav>-->
                         <div class="clearfix"></div>
                     </div>
                     <!-- mainmenu close -->
