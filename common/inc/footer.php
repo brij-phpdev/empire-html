@@ -112,9 +112,9 @@
     <!--<script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
     <script src="form.js"></script>
 
-        <script type="text/javascript">
+<!--        <script type="text/javascript">
         $('#date').datepicker();
-    </script>
+    </script>-->
     <script type="text/javascript">
         
         $(document).ready(function(){
