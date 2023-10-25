@@ -3,116 +3,203 @@ include_once './common/inc/header.php';
 include_once './common/inc/process.php';
 ?>
 
-<!-- subheader -->
-<section id="subheader" class="subh-center" data-stellar-background-ratio=".2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Franchise</h1>
-                <h4> lorum ippsum</h4>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- subheader close -->
 
 <!-- content begin -->
-<div id="content" class="no-top">
+<div class="no-bottom no-top" id="content">
+    <div id="top"></div>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-                <h2>Fill the form we will get back to you</h2>
-                <div class="small-border wow zoomIn" data-wow-delay=".3s" data-wow-duration=".3s"></div>
+    <section id="subheader" class="jarallax">
+        <img src="images/background/7.jpg" class="jarallax-img" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 text-center">
+                    <h1>Franchise</h1>
+                    <div class="de-separator"></div>
+                </div>
             </div>
-
-            <div class="col-md-8 col-md-offset-2">
-                <form name="jobForm" id='job_form' class="deform-1" method="post" action='franchise.php'>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div id='name_error' class='error'>Please enter your name.</div>
-                            <div>
-                                <input type='text' name='name' id='name' class="form-control" placeholder="Candidate Name">
-                            </div>
-
-                            <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
-                            <div>
-                                <input type='text' name='email' id='email' class="form-control" placeholder="Candidate Email">
-                            </div>
-
-                            <div id='phone_error' class='error'>Please enter your phone number.</div>
-                            <div>
-                                <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
-                            </div>
-                            
-                            
-                        </div>
-                        
-                                <div class="col-md-6">
-                                <select name='experience_year' id='experience_year' class="form-control" placeholder="Years of experience">
-                                    <?php foreach($experience_years as $experience_year): ?>
-                                    <option value="<?php echo $experience_year ?>"><?php echo $experience_year ?></option>
-                                    <?php endforeach; ?>
-                                </select><label for="years"> Years</label>
-                                </div>
-                                <div class="col-md-6">
-                                <select name='experience_month' id='experience_month' class="form-control">
-                                    <?php foreach($experience_months as $experience_month): ?>
-                                    <option value="<?php echo $experience_month ?>"><?php echo $experience_month ?></option>
-                                    <?php endforeach; ?>
-                                </select> Months
-                                </div>
-                                Leave blank in case you are fresher
-                            
-
-
-                        <div class="col-md-12">
-                            <div id='expertise_error' class='error'>Please enter your expertise such as hair stylist, beautician, etc.</div>
-                            <div>
-                                <input type='text' name='expertise' id='expertise' class="form-control" placeholder="Candidate Expertise">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div id='reference_error' class='error'>Please enter your Reference (if Any).</div>
-                            <div>
-                                <input type='text' name='reference' id='reference' class="form-control" placeholder="Candidate Reference">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div id='source_error' class='error'>Source of careers.</div>
-                            <div>
-                                <select name='source' id='source' class="form-control" placeholder="Career Source, such as ">
-                                    <option value="0">--Select One--</option>
-                                    <?php foreach($career_source_references as $career_source_reference): ?>
-                                    <option value="<?php echo $career_source_reference ?>"><?php echo $career_source_reference ?></option>
-                                    <?php endforeach; ?>
-                                </select>
-                            </div>
-                        </div>
-                                
-                       <div class="col-md-12">
-                            <div id='resume_error' class='error'>Upload correct file & try again</div>
-                            <div>
-                                <input type="file" name="cadidate_resume" />
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-center">
-                            <p id='submit'>
-                                <input disabled="disabled" type='submit' id='send_message' value='Submit Form' class="btn btn-custom">
-                            </p>
-                            <div id='mail_success' class='success'>Your message has been sent successfully.</div>
-                            <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-
-
         </div>
-    </div>
+        <div class="de-gradient-edge-bottom"></div>
+    </section>
+
+    <section aria-label="section" class="no-top no-bottom">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <!--                        <div class="col-lg-6 offset-lg-3 text-center">
+                                            <img src="images/misc/man-3-b.png" class="img-fluid wow fadeInUp" alt="">
+                                        </div>-->
+                <div class="col-lg-8 offset-lg-2 text-center" data-jarallax-element="-20">
+
+                    <h2 class="wow fadeInUp">Become a <span class="id-color">Partner Salon</span></h2>
+                    <p class="lead wow fadeInUp">Our objective is to facilitate the growth of your business and assist you in shaping the salons of tomorrow.
+                    </p>
+                    <p class="lead wow fadeInUp">Empire Salon Partner is characterized by their independence, ambition, and forward-thinking approach, all underpinned by a commitment to excellence in both cutting and coloring techniques. Our primary aim is to support these salons in expanding their enterprises and crafting the salons of the future.
+                    </p>
+                    <p class="lead wow fadeInUp">Through our exclusive product line, Empire Salon Professional, which seamlessly combines color, care, and finishing elements with exceptional educational resources, we empower our partner salons to captivate their clientele with effortlessly elegant and manageable hairstyles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="no-top jarallax">
+        <div class="de-gradient-edge-top"></div>
+        <img src="images/background/7-1.jpg" class="jarallax-img" alt="">
+        <div class="container position-relative z1000">
+            <div class="row gx-5">
+
+                <div class="col-lg-6 offset-lg-3">
+
+                    <div class="d-sch-table">
+                        <h2 class="wow fadeIn text-center">Benefits of Joining as a Partner Salon</h2>
+                        <div class="de-separator"></div>
+                        <p class="lead">
+                            By becoming an Empire Salon Partner, you gain access to:
+
+                        <ul>
+                            <li>Unrivaled Educational Support: Our program continually challenges hairdressers to achieve the highest technical proficiency.</li>
+                            <li>20% Discount on All Empire Salon Academy Courses: Avail yourself of a 20% discount on all courses offered by Empire Salon Academy.</li>
+                            <li>A Select Range of Performance Products: We provide a concise and precise selection of performance products, enabling you to offer top-tier services to even the most discerning clients.</li>
+                        </ul>
+                        </p>
+                        <p class="lead text-center">
+                            Subscribe Online to Become a Partner Salon
+                            Ready to embark on this journey with us?
+                        </p>
+
+                        <form name="franchiseForm" id="franchise_form" class="form-border position-relative z1000" method="post" action="#">
+                            <div class="row">
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        <select name='type' id='type' class="form-control" required="">
+                                            <option value="Company">Company</option>
+                                            <option value="Individual">Individual</option>
+                                        </select>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        
+                                        <input type='text' name='name' id='name' class="form-control" placeholder="Applicant Name" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        <input type="number" name="team_size" id="team_size" class="form-control" placeholder="Team Size" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        <input type="number" name="area" id="area" class="form-control" placeholder="Area (sq feet)" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        Property type
+                                        <select name='type' id='type' class="form-control" required="">
+                                            <option value="Owned">Owned</option>
+                                            <option value="Rented">Rented</option>
+                                            <option value="Leased">Leased</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        Experience in Salon & Beauty
+                                        <select name='experience' id='experience' class="form-control" required="">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        Other ventures/companies?
+                                        <select name='other_business' id='other_business' class="form-control" required="">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        Need products?
+                                        <select name='need_products' id='need_products' class="form-control" required="">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        Required training
+                                        <select name='required_training' id='required_training' class="form-control" required="">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                       Help in hiring the stylist
+                                        <select name='hiring_stylist' id='hiring_stylist' class="form-control" required="">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                 <div class="col-lg-12 mb10">
+                                    <div class="field-set">
+                                        <input type='text' name='your_budget' id='your_budget' class="form-control" placeholder="Your Budget?" required="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="field-set mb20">
+                                <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="copy-your-site-key-here"></div>
+                            <div id='submit' class="mt20">
+                                <input type='submit' id='send_message' value='Apply' class="btn-main">
+                            </div>
+
+                            <input type="hidden" name="ps_str_task" value="<?php echo $ps_str_task ?>" />
+
+                            <div id="success_message" class='success'>
+                                Your message has been sent successfully. Refresh this page if you want to send more messages.
+                            </div>
+                            <div id="error_message" class='error'>
+                                Sorry there was an error sending your form.
+                            </div>
+                        </form>
+
+                        <div class="d-deco"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="de-gradient-edge-bottom"></div>
+    </section>
+
+
+
 </div>
+<!-- content close -->
 
 <!-- footer begin -->
 <?php

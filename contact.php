@@ -1,13 +1,13 @@
 <?php
 include_once './common/inc/header.php';
-include_once './common/inc/database.php';
+//include_once './common/inc/database.php';
 ?>
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
             <!-- section begin -->
             <section id="subheader" class="jarallax">
-                <img src="images/background/5.jpg" class="jarallax-img" alt="">
+                <img src="images/background/reception-with-staff.jpg" class="jarallax-img" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -26,18 +26,18 @@ include_once './common/inc/database.php';
                         <div class="col-lg-4 col-md-4 text-center">
                             <i class="fa fa-map-marker de-icon gradient de-hover-scale text-light mb20"></i>
                             <p class="lead no-bottom">Our Address</p>
-                            <h4 class="s2">100 Mainstreet Center, NY</h4>
+                            <h4 class="s2"><?php echo ADDRESS?></h4>
                            
                         </div>
                         <div class="col-lg-4 col-md-4 text-center">
                             <i class="fa fa-phone de-icon gradient de-hover-scale text-light mb20"></i>
                             <p class="lead no-bottom">Phone Number</p>
-                            <h4 class="s2">+1 333 9296</h4>                                                
+                            <h4 class="s2"><?php echo PHONE ?></h4>                                                
                         </div>
                         <div class="col-lg-4 col-md-4 text-center">
                             <i class="fa fa-envelope-o de-icon gradient de-hover-scale text-light mb20"></i>
                             <p class="lead no-bottom">Email Address</p>
-                            <h4 class="s2">contact@suppport.com</h4>     
+                            <h4 class="s2"><?php echo EMAIL ?></h4>     
                         </div>
                     </div>
                 </div>
@@ -106,11 +106,11 @@ include_once './common/inc/database.php';
                             <h4>Follow Us</h4>
                             <div class="spacer-20"></div>
                             <div class="social-icons big">
-                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                                <a href="<?php echo FB_SOCIAL ?>"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="<?php echo YOUTUBE_SOCIAL ?>"><i class="fa fa-youtube fa-lg"></i></a>
+                                <a href="<?php echo INSTA_SOCIAL ?>"><i class="fa fa-instagram fa-lg"></i></a>
+<!--                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-rss fa-lg"></i></a>-->
                             </div>
                         </div>
                     </div>

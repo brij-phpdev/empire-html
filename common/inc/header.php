@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 error_reporting(E_ALL);
 
 //echo getenv('HTTP_CLIENT_IP');
@@ -9,7 +9,7 @@ include_once 'functions.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Empire - Barbershop Website </title>
+    <title>Empire </title>
     <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
@@ -56,28 +56,27 @@ include_once 'functions.php';
                                 <ul id="mainmenu">
                                     <li><a class="menu-item" href="index.php">Home</a>
                                     </li>
-                                    <li><a class="menu-item" href="services.php">Services</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="services.php">All Services</a></li>
-                                            <li><a class="menu-item" href="service-single.php">Service Single</a></li>
-                                        </ul>
-                                    </li>
                                     <li><a class="menu-item" href="about.php">About</a>
                                         <ul>
                                             <li><a class="menu-item" href="about.php">About Us</a></li>
                                             <li><a class="menu-item" href="team.php">Our Team</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="book.php">Book Now</a></li>
-                                    <li><a class="menu-item" href="blog.php">Blog</a></li>
-                                    <li><a class="menu-item" href="#">Extras</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="contact.php">Contact</a></li>
                                             <li><a class="menu-item" href="gallery.php">Gallery</a></li>
-                                            <li><a class="menu-item" href="pricing.php">Pricing</a></li>
+                                            <li><a class="menu-item" href="franchise.php">Franchise</a></li>
+                                            <li><a class="menu-item" href="jobs.php">Jobs</a></li>
                                             <li><a class="menu-item" href="testimonials.php">Testimonials</a></li>
                                         </ul>
                                     </li>
+                                    <li><a class="menu-item" href="services.php">Services</a>
+                                        <ul>
+                                            <li><a class="menu-item" href="services.php">All Services</a></li>
+                                            <!--<li><a class="menu-item" href="service-single.php">Service Single</a></li>-->
+                                        </ul>
+                                    </li>
+                                    
+                                    <!--<li><a class="menu-item" href="book.php">Book Now</a></li>-->
+                                    <!--<li><a class="menu-item" href="blog.php">Blog</a></li>-->
+                                    <li><a class="menu-item" href="contact.php">Contact</a></li>
+                                    <li><a class="menu-item" target="_blank" href="<?php echo SHOP_URL ?>">Shop</a>
                                 </ul>
                             </div>
                             <div class="de-flex-col">

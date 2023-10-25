@@ -75,7 +75,7 @@ include_once './common/inc/header.php';
                                     <div class="c-item">                            
                                         <a href="#">
                                             <span class="c-item_info">
-                                                <span class="c-item_title">Slick Back</span>
+                                                <span class="c-item_title">CUT & STYLE</span>
                                                 <span class="c-item_wm">#1</span>
                                             </span>
                                         
@@ -88,7 +88,7 @@ include_once './common/inc/header.php';
                                     <div class="c-item">                            
                                         <a href="#">
                                             <span class="c-item_info">
-                                                <span class="c-item_title">Classic Quiff</span>
+                                                <span class="c-item_title">Signature Cut</span>
                                                 <span class="c-item_wm">#2</span>
                                             </span>
                                         
@@ -101,7 +101,7 @@ include_once './common/inc/header.php';
                                     <div class="c-item">                            
                                         <a href="#">
                                             <span class="c-item_info">
-                                                <span class="c-item_title">Pompadour</span>
+                                                <span class="c-item_title">Barbering</span>
                                                 <span class="c-item_wm">#3</span>
                                             </span>
                                         
@@ -114,7 +114,7 @@ include_once './common/inc/header.php';
                                     <div class="c-item">                            
                                         <a href="#">
                                             <span class="c-item_info">
-                                                <span class="c-item_title">Fringe</span>
+                                                <span class="c-item_title">Afro Textured Hair</span>
                                                 <span class="c-item_wm">#4</span>
                                             </span>
                                             
@@ -128,7 +128,7 @@ include_once './common/inc/header.php';
                                     <div class="c-item">                            
                                         <a href="#">
                                             <span class="c-item_info">
-                                                <span class="c-item_title">Curly Fade</span>
+                                                <span class="c-item_title">COLORING</span>
                                                 <span class="c-item_wm">#5</span>
                                             </span>
                                             
@@ -141,12 +141,38 @@ include_once './common/inc/header.php';
                                     <div class="c-item">                            
                                         <a href="#">
                                             <span class="c-item_info">
-                                                <span class="c-item_title">Undercut</span>
+                                                <span class="c-item_title">Signature Colour</span>
                                                 <span class="c-item_wm">#6</span>
                                             </span>
                                             
                                             <div class="c-item_wrap">
                                                 <img src="images/hairstyles/6.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Signature Balayage</span>
+                                                <span class="c-item_wm">#7</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/7.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Signature Highlights</span>
+                                                <span class="c-item_wm">#8</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/8.jpeg" class="lazy img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
