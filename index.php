@@ -262,7 +262,7 @@ include_once './common/inc/header.php';
                     </div>
                     <div class="spacer-single"></div>
                     <div class="text-center">
-                        <a href="services.html" class="btn-main">All Services &amp; Prices</a>
+                        <a href="services.php" class="btn-main">All Services &amp; Prices</a>
                     </div>
                 </div>
             </section>
