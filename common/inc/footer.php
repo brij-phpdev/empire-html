@@ -100,9 +100,9 @@
 
 
     <!-- current page scripts  -->
-    <script src="js/bootstrap-datepicker.js"></script>
+    <!--<script src="js/bootstrap-datepicker.js"></script>-->
     
-    <script src="js/callSendSMS.js"></script>
+    <!--<script src="js/callSendSMS.js"></script>-->
   <!-- Javascript Files
     ================================================== -->
     <script src="js/plugins.js"></script>
