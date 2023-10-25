@@ -101,7 +101,18 @@
 
     <!-- current page scripts  -->
     <script src="js/bootstrap-datepicker.js"></script>
-    <script type="text/javascript">
+    
+    <script src="js/callSendSMS.js"></script>
+  <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/custom-marquee.js"></script>
+    
+    <!--<script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
+    <script src="form.js"></script>
+
+        <script type="text/javascript">
         $('#date').datepicker();
     </script>
     <script type="text/javascript">
@@ -166,17 +177,6 @@
       });
     
     </script>
-    
-    <script src="js/callSendSMS.js"></script>
-  <!-- Javascript Files
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/designesia.js"></script>
-    <script src="js/custom-marquee.js"></script>
-    
-    <!--<script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
-    <script src="form.js"></script>
-
 </body>
 </html>
 <?php
