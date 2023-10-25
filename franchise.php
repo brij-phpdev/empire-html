@@ -1,5 +1,6 @@
 <?php
 include_once './common/inc/header.php';
+include_once './common/inc/process.php';
 ?>
 
 <!-- subheader -->
@@ -27,7 +28,7 @@ include_once './common/inc/header.php';
             </div>
 
             <div class="col-md-8 col-md-offset-2">
-                <form name="jobForm" id='job_form' class="deform-1" method="post" action=''>
+                <form name="jobForm" id='job_form' class="deform-1" method="post" action='franchise.php'>
                     <div class="row">
                         <div class="col-md-12">
                             <div id='name_error' class='error'>Please enter your name.</div>

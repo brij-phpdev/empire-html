@@ -1,219 +1,187 @@
 <?php
 include_once './common/inc/header.php';
-include_once './common/inc/database.php';
 ?>
-        <!-- subheader -->
-        <section id="subheader" class="subh-center" data-stellar-background-ratio=".2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>About Us</h1>
-                        <h4>Who We Are</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- subheader close -->
-
         <!-- content begin -->
-        <div id="content" class="no-bottom no-top">
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
 
-            <!-- section begin -->
-            <section id="explore-2" class="side-bg">
-                <div class="col-md-6 image-container">
-                    <div class="background-image"></div>
-                </div>
-
+            <section id="subheader" class="jarallax">
+                <img src="images/background/3.jpg" class="jarallax-img" alt="">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5 col-md-offset-7">
-                            <div class="padding40">
-                                <h2>Who We Are
-							<span class="small-border"></span>
-                                </h2>
-                                Our commitment to quality and services ensure our clients happy. With years of experiences and continuing education, our dedicated staff is ready to serve your beauty needs. We're happy to help you decide the best look.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 							
-                            </div>
-
+                        <div class="col-lg-6 offset-lg-3 text-center">
+                            <h1>About Us</h1>
+                            <div class="de-separator"></div>
                         </div>
                     </div>
                 </div>
+                <div class="de-gradient-edge-bottom"></div>
             </section>
-            <!-- section close -->
 
-            <!-- section begin -->
-            <section id="explore-1" class="side-bg">
-                <div class="col-md-6 col-md-offset-6 pull-right image-container">
-                    <div class="background-image"></div>
-                </div>
-
+            <section aria-label="section" class="no-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
-                            <div class="padding40">
-                                <h2>What We Do
-							<span class="small-border"></span>
-                                </h2>
-                                Welcome to Modis beauty salons where our team of experienced and professionally trained to give you best services. We offer beauty treatments for ladies including hairdressing, make up, facial, massage and more.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-                            </div>
-
+                        <div class="col-lg-12" data-jarallax-element="-20">
+                            <p class="lead big wow fadeInUp">Immerse yourself in the ambience of our thoughtfully designed space, where modern aesthetics merge harmoniously with classic elements. We believe that a barbershop should be more than just a place to get a haircut; it should be a sanctuary where you can unwind, engage in great conversation, and leave feeling invigorated.
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- section close -->
 
-
-            <!-- section begin -->
-            <section id="section-stylist" style="display: none;" class="hidden">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3 text-center">
-                            <h1>Our Stylist</h1>
-                            <div class="small-border wow zoomIn" data-wow-delay=".3s" data-wow-duration=".3s"></div>
-                            <div class="spacer-single"></div>
-                        </div>
-
-                        <div class="clearfix"></div>
-
-                        <div class="col-md-3 col-sm-3 col-xs-6 wow fadeInLeft" data-wow-delay=".8s">
-                            <div class="team-member">
-                                <img src="images/team/team_pic_1.jpg" class="img-circle pic-grey" alt="" />
-                                <h3>Jimmy</h3>
-                                <p>He is our Lead Hair Designer and the creative inspiration. She's happy to help you decide the best hair style.</p>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                </div>
+            <section class="jarallax no-top">
+                <div class="de-gradient-edge-top"></div>
+                <img src="images/background/1.jpg" class="jarallax-img" alt="">
+                <div class="container relative z1000">
+                    <div class="row gx-5">
+                        <div class="col-lg-6" data-jarallax-element="-50">
+                            <div class="d-sch-table">
+                                <h2 class="wow fadeIn text-center">Our Vision</h2>
+                                <div class="de-separator"></div>
+                                <p>At the heart of our vision is a commitment to preserving the time-honored traditions of barbering while seamlessly blending them with contemporary techniques and trends. We envision a space where heritage and innovation coexist harmoniously, creating an environment that appeals to the modern man seeking both classic sophistication and cutting-edge styles.</p>
+                                <div class="d-deco"></div>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 col-xs-6 wow fadeInLeft" data-wow-delay=".5s">
-                            <div class="team-member">
-                                <img src="images/team/team_pic_2.jpg" class="img-circle pic-grey" alt="" />
-                                <h3>James</h3>
-                                <p>He is our Lead Hair Designer and the creative inspiration. She's happy to help you decide the best hair style.</p>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-3 col-xs-6 wow fadeInRight" data-wow-delay=".5s">
-                            <div class="team-member">
-                                <img src="images/team/team_pic_3.jpg" class="img-circle pic-grey" alt="" />
-                                <h3>John</h3>
-                                <p>He is our Lead Hair Designer and the creative inspiration. She's happy to help you decide the best hair style.</p>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-3 col-xs-6 wow fadeInRight" data-wow-delay=".8s">
-                            <div class="team-member">
-                                <img src="images/team/team_pic_4.jpg" class="img-circle pic-grey" alt="" />
-                                <h3>Jack</h3>
-                                <p>He is our Lead Hair Designer and the creative inspiration. She's happy to help you decide the best hair style.</p>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                </div>
+                        <div class="col-lg-6" data-jarallax-element="-100">
+                            <div class="d-sch-table">
+                                <h2 class="wow fadeIn text-center">Our Mission</h2>
+                                <div class="de-separator"></div>
+                                <p>Our mission is to empower men to feel confident, stylish, and authentic in their appearance. Through our commitment to excellence, personalized service, inviting atmosphere, and a harmonious blend of tradition and innovation, we aspire to become the ultimate grooming destination for the modern gentleman.</p>
+                                <div class="d-deco"></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="de-gradient-edge-bottom"></div>
             </section>
-            <!-- section close -->
 
-
-            <!-- section begin -->
-            <section id="section-fun-facts" class="bg-grey text-light">
+            <section aria-label="section" class="no-top">
                 <div class="container">
-
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3 text-center">
-                            <h1>Our Stylists</h1>
-                            <div class="small-border wow zoomIn" data-wow-delay=".3s" data-wow-duration=".3s"></div>
-                            <div class="spacer-single"></div>
+                        <div class="col-lg-12 text-center">
+                            <h2 class="wow fadeIn">Our Team</h2>
+                            <div class="de-separator"></div>
+                        </div>
+                        <div class="col-lg-3 text-center" data-jarallax-element="-20">
+                            <div class="de-box-a">
+                                <div class="d-image">
+                                    <img src="images/team/1.jpg" alt="">
+                                </div>
+                                <div class="d-deco-1"></div>
+                                <div class="d-deco-2"></div>
+                                <div class="d-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="spacer-20"></div>
+                            <h4>Steven Porreca</h4>
                         </div>
 
-                    </div>
-                        
-                        
-                    <!--<div class="tiny-border"><span></span></div>-->
-                    <div class="row text-center selector-img">
-                        <?php
-                        $agent_sql = "SELECT * FROM `agents`";
-                        if ($res = mysqli_query($link, $agent_sql)) {
-                            if (mysqli_num_rows($res) > 0) {
-                                while ($row = mysqli_fetch_array($res)) {
-                                    ?>
-                                    <div class="col-md-3 col-sm-2 col-xs-4" data-wow-delay="0">
-                                        
-                                        <?php
-                                        //data:image/jpg;charset=utf-8;base64,
-                                        ?>
-                                        <img src="<?php echo (SITE_BOOK_URL . '/application/uploads/img/agents/' . $row['agentImage']) ?>" alt="" class="img-responsive img-circle">
-                                        <span class="spacer-half"></span>
-                                        <?php echo $row['agentName'] ?>
-                                    </div>
-                                    <?php
-                                }
-                                mysqli_free_result($res);
-                            }
-                        }
-                        ?>
-
-                    </div>
-
-                        
-<!--                        <div class="col-md-4 wow fadeIn" data-wow-delay="0">
-                            <div class="de_count">
-                                <h3 class="timer" data-to="90" data-speed="1">0</h3>
-                                <span>Years of Experience</span>
+                        <div class="col-lg-3 text-center" data-jarallax-element="-60">
+                            <div class="de-box-a">
+                                <div class="d-image">
+                                    <img src="images/team/2.jpg" alt="">
+                                </div>
+                                <div class="d-deco-1"></div>
+                                <div class="d-deco-2"></div>
+                                <div class="d-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
                             </div>
+                            <div class="spacer-20"></div>
+                            <h4>Huey Apicella</h4>
                         </div>
 
-                        <div class="col-md-4 wow fadeIn" data-wow-delay=".25s">
-                            <div class="de_count">
-                                <h3 class="timer" data-to="4830" data-speed="2500">0</h3>
-                                <span>Shave Cut</span>
+                        <div class="col-lg-3 text-center" data-jarallax-element="-40">
+                            <div class="de-box-a">
+                                <div class="d-image">
+                                    <img src="images/team/3.jpg" alt="">
+                                </div>
+                                <div class="d-deco-1"></div>
+                                <div class="d-deco-2"></div>
+                                <div class="d-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
                             </div>
+                            <div class="spacer-20"></div>
+                            <h4>Harry Riecke</h4>
                         </div>
 
-                        <div class="col-md-4 wow fadeIn" data-wow-delay=".5s">
-                            <div class="de_count">
-                                <h3 class="timer" data-to="180" data-speed="2500">0</h3>
-                                <span>Beards Trims</span>
+                        <div class="col-lg-3 text-center" data-jarallax-element="-10">
+                            <div class="de-box-a">
+                                <div class="d-image">
+                                    <img src="images/team/4.jpg" alt="">
+                                </div>
+                                <div class="d-deco-1"></div>
+                                <div class="d-deco-2"></div>
+                                <div class="d-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
                             </div>
-                        </div>-->
+                            <div class="spacer-20"></div>
+                            <h4>Merilyn Axe</h4>
+                        </div>
                     </div>
-
-                
+                </div>
             </section>
-            <!-- section close -->
 
-            <!-- section begin -->
-            <section id="cta" aria-label="cta" class="call-to-action bg-color-2 text-center">
-                <a href="services.php" class="btn btn-line-white btn-big">Make Appointment Now</a>
+            <section aria-label="section" class="no-top">
+                <div class="wow fadeInRight d-flex">
+                  <div class="de-marquee-list wow">
+                    <div class="d-item">
+                      <span class="d-item-txt">Haircut</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Shave</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Faded</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Hair Dye</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Beard Trim</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Hair Color</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Facial</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Masage</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                      <span class="d-item-txt">Hair Wash</span>
+                      <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                      </span>
+                     </div>
+                  </div>
+                </div>
             </section>
-            <!-- section close -->
-
         </div>
-
-        <!-- footer begin -->
-        <?php
-include_once './common/inc/footer.php';
-?>
+        <!-- content close -->
+         <?php
+        
+        include_once './common/inc/footer.php';
+        
+        ?>

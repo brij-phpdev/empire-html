@@ -1,5 +1,6 @@
 <?php
 include_once './common/inc/header.php';
+include_once './common/inc/process.php';
 ?>
 
 <!-- subheader -->
@@ -27,7 +28,7 @@ include_once './common/inc/header.php';
             </div>
 
             <div class="col-md-8 col-md-offset-2">
-                <form name="jobForm" id='job_form' class="deform-1" method="post" action=''>
+                <form name="jobForm" id='job_form' class="jobform-1" method="post" action='' enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-md-12">
                             <div id='name_error' class='error'>Please enter your name.</div>
@@ -96,10 +97,12 @@ include_once './common/inc/header.php';
                                 <input type="file" name="cadidate_resume" />
                             </div>
                         </div>
+                            
                         <div class="col-md-12 text-center">
                             <p id='submit'>
-                                <input disabled="disabled" type='submit' id='send_message' value='Submit Form' class="btn btn-custom">
+                                <input type='submit' id='apply_jobs' value='Submit Form' class="btn btn-custom">
                             </p>
+                            <input type="text" name="ps_str_task" value="<?php echo $ps_str_task ?>" />
                             <div id='mail_success' class='success'>Your message has been sent successfully.</div>
                             <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
                         </div>

@@ -4,103 +4,37 @@
 
 ?>
 
+<!-- content close -->
+        <a href="#" id="back-to-top"></a>
         <!-- footer begin -->
         <footer>
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-3">
-                        <div class="widget widget_recent_post">
-                            <h3>About</h3>
-                            <article>
-                                As one of the main and expert Salons in Agra since 1928, Empire Salon and Spa has everything to keep you looking and feeling stunning. We are likely ensure you get the great treatment so you can leave as the best version of yourself. Reach us today and treat yourself to our pampering package!
-
-                            </article>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h3>We're Open</h3>
-                        <span class="tiny-border"></span>
-                        <div class="widget">
-                            <div class="box-border double">
-                                <ul class="list-border-bottom">
-                                    <li>
-                                        <span class="pull-left">Mon - Tues</span>
-                                        <span class="pull-right id-color">2 pm to 6 pm</span>
-                                        <div class="clearfix"></div>
-                                    </li>
-                                    <li>
-                                        <span class="pull-left">Wed - Sun</span>
-                                        <span class="pull-right id-color">11 am to 7:30 pm</span>
-                                        <div class="clearfix"></div>
-                                    </li>
-                                    <li>
-                                        <span class="pull-left">Happy Hours (Tuesday & Thursday)</span>
-                                        <div class="clearfix"></div>
-                                    </li>
-                                    <li>
-                                        <span class="pull-right id-color">10 am to 1 pm</span>
-                                        <div class="clearfix"></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <h3>Contact Us</h3>
-                        <div class="widget widget-address">
-                            <address>
-                                <span><strong>Address:</strong> <?php echo nl2br(ADDRESS) ?></span>
-                                <span><strong>Phone:</strong><a title="click to call" href="tel:<?php echo PHONE ?>"><?php echo PHONE ?></a></span>
-                                <!--<span><strong>Fax:</strong>(208) 333 9298</span>-->
-                                <span><strong>Email:</strong><a href="mailto:<?php echo EMAIL ?>"><?php echo EMAIL ?></a></span>
-                                
-                                
-                            </address>
-                           
-                        </div>
-                    </div>
+                <div class="row g-4">
                     
-                    <div class="col-md-3">
-                        
-                        <div class="widget widget-address">
-                            <span><strong>WhatsApp:</strong></span>
-                            <br/>
-                            <a target="_blank" href="<?php echo WHATSAPP_URL ?>"><img src="images/empire/wa.link.png" class="img-responsive"></a>
+                    <div class="col-lg-4 text-lg-start text-center">
+                        <div class="social-icons">
+                            <a target="_blank" href="<?php echo FB_SOCIAL ?>"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a target="_blank" href="<?php echo YOUTUBE_SOCIAL ?>"><i class="fa fa-youtube fa-lg"></i></a>
+                            <a target="_blank" href="<?php echo INSTA_SOCIAL ?>"><i class="fa fa-instagram fa-lg"></i></a>
+                            <!--<a href="<?php echo FB_SOCIAL ?>"><i class="fa fa-rss fa-lg"></i></a>
+                            <a href="<?php echo FB_SOCIAL ?>"><i class="fa fa-twitter fa-lg"></i></a>
+                            -->
                         </div>
                     </div>
-
-
-                </div>
-            </div>
-
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            &copy; Copyright 2023 
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <div class="social-icons">
-                                <a href="<?php echo FB_SOCIAL ?>"><i class="fa fa-facebook fa-lg"></i></a>
-                                <a href="<?php echo INSTA_SOCIAL ?>"><i class="fa fa-instagram fa-lg"></i></a>
-                                <a href="<?php echo YOUTUBE_SOCIAL ?>"><i class="fa fa-youtube fa-lg"></i></a>
-<!--                                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>-->
-                            </div>
-                        </div>
+                    <div class="col-lg-4 text-lg-center text-center">
+                        <img src="images/logo.png" class="" alt="">
+                    </div>
+                    <div class="col-lg-4 text-lg-end text-center">
+                        Copyright 2023 - Empire Salon
                     </div>
                 </div>
             </div>
-
         </footer>
         <!-- footer close -->
-
     </div>
+    
+    
+
 
 
     <!--SMS implementation start--> 
@@ -164,29 +98,6 @@
     
     <!--SMS implementation close-->
 
-    <!-- Javascript Files
-    ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jpreLoader.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/easing.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/jquery.scrollto.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/video.resize.js"></script>
-    <script src="js/validation-reservation.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/enquire.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/designesia.js"></script>
-
-    <!-- SLIDER REVOLUTION SCRIPTS  -->
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!-- current page scripts  -->
     <script src="js/bootstrap-datepicker.js"></script>
@@ -257,7 +168,15 @@
     </script>
     
     <script src="js/callSendSMS.js"></script>
+  <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/custom-marquee.js"></script>
     
+    <!--<script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
+    <script src="form.js"></script>
+
 </body>
 </html>
 <?php

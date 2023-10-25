@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 include_once './common/inc/config.php';
 include_once './common/inc/database.php';
 
