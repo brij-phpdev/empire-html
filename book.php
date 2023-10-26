@@ -243,7 +243,7 @@ include_once './common/inc/header.php';
                                         </div>
 
                                         <div class="col-lg-12">
-                                            <div class="g-recaptcha" data-sitekey="copy-your-site-key-here"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LdhF9AoAAAAAG-Bqr84uLX7F6q4hk2uZ202yPyz"></div>
                                             <p id='submit' class="mt20">
                                                 <input type='submit' id='send_message' value='Submit Form' class="btn-main">
                                             </p>
