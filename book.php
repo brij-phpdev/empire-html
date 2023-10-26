@@ -25,14 +25,14 @@ include_once './common/inc/header.php';
                     <div class="row">
 
                         <div class="col-md-10 offset-md-1">
-                            <form name="contactForm" id='contact_form' class="form-border" method="post">
+                            <form name="contactForm" id='contact_form' class="form-border" method="post" action="booking_post.php">
                                 <div id="step-1" class="row">
                                     <h3 class="s2">Choose Services</h3>
 
                                     <div class="row">
                                         <div class="col-xl-3 col-lg-6">
                                             <div class="sc-group">
-                                                <h5>Haircuts</h5>
+                                                <h5 class="s1">Haircuts</h5>
                                                 <div class="form-group">
                                                   <input type="checkbox" name="Services Haircuts" id="s_a1" value="Regular Haircut">
                                                   <label for="s_a1">Regular Haircut</label>

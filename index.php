@@ -193,7 +193,7 @@ include_once './common/inc/header.php';
                 <div class="container relative z1000">
                     <div class="row align-items-center">
                         <div class="col-lg-6" data-jarallax-element="-30">
-                            <img src="images/misc/man-2.png" class="img-fluid wow fadeInRight" alt="">
+                            <img src="images/misc/hello.JPG" class="img-fluid wow fadeInRight" alt="">
                         </div>
                         <div class="col-lg-6" data-jarallax-element="-60">
                             <h2 class="wow fadeInRight" data-wow-delay=".3s">We’ll  Crafting <span class="id-color">Confidence</span> Through Sharp Style</h2>
@@ -245,7 +245,7 @@ include_once './common/inc/header.php';
                                 <div class="d-deco-2"></div>
                             </div>
                             <div class="spacer-20"></div>
-                            <h4>Shaving</h4>
+                            <h4>Facial</h4>
                         </div>
 
                         <div class="col-lg-3 text-center" data-jarallax-element="-10">
@@ -360,6 +360,102 @@ include_once './common/inc/header.php';
                   </div>
                 </div>
             </section>
+            
+            
+            <section class="no-top" aria-label="section">
+                <div class="container">
+                    <div class="col-lg-12 text-center">
+                            <h2 class="wow fadeIn">Client Testimonials</h2>
+                            <div class="de-separator"></div>
+                        </div>
+                    <div class="row masonry">
+                        <div class="col-lg-4 item mb10">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>It was amazing visiting Empire salon in my home town. all the services were amazing. Shama was superb in massage , manicure, pedicure, foot massage in all ways . can’t wait to come again . amazing team of people so coordinated together to make your experience worth.
+                                    </p>
+                                    <div class="de_testi_by">
+                                        <img alt="" class="rounded-circle" src="images/people/1.jpg"><span>Neetu Gosain</span>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 item mb10">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>I had my pedicure and spa services from Shama.
+She is very nice in her field and gave her 100%.. I am totally satisfied by her work.
+Regards,
+Shipra                                    </p>
+                                    <div class="de_testi_by">
+                                        <img alt="" class="rounded-circle" src="images/people/2.jpg"><span>Shipra Agarwal</span>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 item mb10">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>Very efficient staff..  I always have a very good experience.. for facial you can ask for khushi or shiza.  And for pedicure and spa undoubtedly Ram...
+                                    </p>
+                                    <div class="de_testi_by">
+                                        <img alt="" class="rounded-circle" src="images/people/3.jpg"><span>Veenu Arora</span>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 item mb10">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>I am using this Damon's service since last 15 yrs...Their work is always appreciable
+                                    </p>
+                                    <div class="de_testi_by">
+                                        <img alt="" class="rounded-circle" src="images/people/4.jpg"><span>Archana Rana</span>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 item mb10">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>Shama did excellent pedicure
+Shiza massage was superb
+Khushi facial was very relaxing
+Jeetu as usual perfect in his job
+Excellent Sevice by all
+Thanks to all
+                                    </p>
+                                    <div class="de_testi_by">
+                                        <img alt="" class="rounded-circle" src="images/people/5.jpg"><span>Rashi Garg</span>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 item mb10">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>Shama and Shiza were Amazinggg in providing me with their grooming services at Empire Salon! They gave their 100% :)
+                                    </p>
+                                    <div class="de_testi_by">
+                                        <img alt="" class="rounded-circle" src="images/people/6.jpg"><span>Esha Agrawal</span>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+<!--                    <div class="text-center">
+                        <div class="spacer-single"></div>
+                        <a class="btn-main" href="#">Load More Testimonials</a>
+                    </div>           -->
+                </div>                    
+            </section>
+            
             
         </div>
         <?php

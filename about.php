@@ -56,7 +56,7 @@ include_once './common/inc/header.php';
                 <div class="de-gradient-edge-bottom"></div>
             </section>
 
-            <section aria-label="section" class="no-top">
+            <section aria-label="section" class="no-top" style="display: none;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">

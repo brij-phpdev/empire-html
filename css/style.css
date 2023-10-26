@@ -4566,8 +4566,14 @@ h5{
 }
 
 .sc-group h5{
-  background: rgba(var(--primary-color-rgb), .5);
+  background: rgba(var(--primary-color-rgb), .2);
   padding: 5px 15px 2px 15px;
+  -webkit-text-stroke: .5;
+  color: #BD9F5F;
+  /*color: rgba(var(--primary-color-rgb),.7);*/
+/*  color: #BD9F5F;
+  -webkit-text-stroke: 1;*/
+   /*color: rgba(var(--primary-color-rgb),.2);*/
 }
 
 .call-to-action h4 {
@@ -4798,9 +4804,11 @@ span.teaser {
   transform: translate(-50%, -50%);
 }
 
+.de_testi_by img{display: none;}
 .wm .s1{
-   -webkit-text-stroke: 0;
-   color: rgba(var(--primary-color-rgb),.3);
+   -webkit-text-stroke: 1;
+   color: rgba(var(--primary-color-rgb),.2);
+   /*color: var(--primary-color-rgb);*/
 }
 
 .wm.invert{
@@ -9892,7 +9900,7 @@ table thead {
 }
 
 p.lead {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.7em;
   margin-top: 0;
   font-weight: 400;
@@ -9901,7 +9909,7 @@ p.lead {
 }
 
 p.lead.big{
-  font-size: 32px !important;
+  font-size: 24px !important;
 }
 
 .dark-scheme p.lead {
@@ -18494,3 +18502,16 @@ img {
 
   .container-timeline ul li::before {
     left: 0
+  }
+}
+
+.service_item-title{
+    width: 100%;
+    font-size: 100px;
+    letter-spacing: .15em;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--title-font);
+    color: transparent;
+    -webkit-text-stroke: 1px var(--primary-color);
+}

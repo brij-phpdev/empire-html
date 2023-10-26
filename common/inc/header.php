@@ -60,17 +60,17 @@ include_once 'functions.php';
                                         <ul>
                                             <li><a class="menu-item" href="about.php">About Us</a></li>
                                             <li><a class="menu-item" href="team.php">Our Team</a></li>
-                                            <li><a class="menu-item" href="gallery.php">Gallery</a></li>
+                                            <!--<li><a class="menu-item" href="gallery.php">Gallery</a></li>-->
                                             <li><a class="menu-item" href="franchise.php">Franchise</a></li>
                                             <li><a class="menu-item" href="jobs.php">Jobs</a></li>
-                                            <li><a class="menu-item" href="testimonials.php">Testimonials</a></li>
+                                            <!--<li><a class="menu-item" href="testimonials.php">Testimonials</a></li>-->
                                         </ul>
                                     </li>
                                     <li><a class="menu-item" href="services.php">Services</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="services.php">All Services</a></li>
-                                            <!--<li><a class="menu-item" href="service-single.php">Service Single</a></li>-->
-                                        </ul>
+<!--                                        <ul>
+                                            <li><a class="menu-item" href="book.php">All Services</a></li>
+                                            <li><a class="menu-item" href="service-single.php">Service Single</a></li>
+                                        </ul>-->
                                     </li>
                                     
                                     <!--<li><a class="menu-item" href="book.php">Book Now</a></li>-->
@@ -81,7 +81,7 @@ include_once 'functions.php';
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
-                                    <a href="book.php" class="btn-main">Book Now</a>
+                                    <a href="book.php" class="btn-white" style="padding: 7px 25px; color:#BD9F5F; letter-spacing: 5px; font-weight: bolder; font-family: 'Bebas Neue', Helvetica, Arial, sans-serif">Book Now</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
