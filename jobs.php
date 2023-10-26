@@ -81,7 +81,7 @@ include_once './common/inc/process.php';
     </section>
 
     
-    <section class="no-top jarallax">
+    <section class=" jarallax">
                 <div class="de-gradient-edge-top"></div>
                 <img src="images/background/4.jpg" class="jarallax-img" alt="">
                 <div class="container position-relative z1000">
@@ -105,7 +105,7 @@ include_once './common/inc/process.php';
                                         </div>
                                         <div class="col-lg-12 mb10">
                                             <div class="field-set">
-                                                <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                                <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 mb10">
@@ -144,8 +144,8 @@ include_once './common/inc/process.php';
                                     <div class="field-set mb20">
                                         <select name='source' id='source' class="form-control" placeholder="Career Source, such as ">
                                     <option value="0">--Select One--</option>
-                                    <?php foreach ($career_source_references as $career_source_reference): ?>
-                                        <option value="<?php echo $career_source_reference ?>"><?php echo $career_source_reference ?></option>
+                                    <?php foreach ($career_source_references as $k => $career_source_reference): ?>
+                                        <option value="<?php echo $k ?>"><?php echo $career_source_reference ?></option>
                                     <?php endforeach; ?>
                                 </select>
                                     </div>
