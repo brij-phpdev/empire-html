@@ -105,6 +105,7 @@
     <!--<script src="js/callSendSMS.js"></script>-->
   <!-- Javascript Files
     ================================================== -->
+    <!--<script src="js/jquery.min.js"></script>-->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/custom-marquee.js"></script>
@@ -165,7 +166,7 @@
         
         
     </script>
-    
+    <!--<script src="js/jquery.magnific-popup.min.js"></script>-->
     <script type="text/javascript">
     
       $(document).ready(function() {
@@ -178,6 +179,8 @@
       });
     
     </script>
+    <script src="js/callSendSMS.js"></script>
+    
 </body>
 </html>
 <?php

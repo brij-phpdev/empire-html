@@ -78,7 +78,7 @@ mysqli_free_result($res);
                                 .mysqli_error($link); 
     }
     if($bookingId){
-        echo "booked";
+        echo "success";
         die;
     }
 

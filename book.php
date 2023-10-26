@@ -25,7 +25,7 @@ include_once './common/inc/header.php';
                     <div class="row">
 
                         <div class="col-md-10 offset-md-1">
-                            <form name="contactForm" id='contact_form' class="form-border" method="post" action="booking_post.php">
+                            <form name="bookForm" id='book_form' class="form-border" method="post" action="booking_post.php">
                                 <div id="step-1" class="row">
                                     <h3 class="s2">Choose Services</h3>
 
@@ -125,6 +125,10 @@ include_once './common/inc/header.php';
                                                 </div>
                                             </div>
                                         </div>
+                                        <input type="hidden" name="serviceId" value="1" />
+                                        <input type="hidden" name="agentId" value="1" />
+                                        <input type="hidden" name="serviceAdult" value="1" />
+                                        <input type="hidden" name="serviceChildren" value="1" />
 
                                     </div>
 

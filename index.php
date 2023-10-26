@@ -496,7 +496,7 @@ include_once './common/inc/header.php';
     </section>
 
 
-    <section class="" data-bgcolor="#ff00" aria-label="section">
+    <section class="" data-bgcolor="#ff00" aria-label="section" style="display: none;">
         <div class="container">
 
 
@@ -504,8 +504,8 @@ include_once './common/inc/header.php';
             <div class="row">
 
                 <div class="col-lg-12" data-jarallax-element="-20">
-                    <div class="d-carouselw wow fadeInRight" >
-                        <div id="item-carousel-bigw" class="owl-carousel no-hide owl-center" data-wow-delay="1s">
+                    <div class=" wow fadeInRight" >
+                        <div id="item-" class="owl-carousel no-hide owl-center" data-wow-delay="1s">
                             <?php for ($i = 1; $i <= 5; $i++): ?>
                                 <div class="c-item">                            
                                     <a href="#">
