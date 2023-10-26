@@ -109,7 +109,7 @@
     <script src="js/designesia.js"></script>
     <script src="js/custom-marquee.js"></script>
     
-    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+    
     <!--<script src="https://www.recaptcha.net/recaptcha/api.js"></script>-->
     <script src="form.js"></script>
 

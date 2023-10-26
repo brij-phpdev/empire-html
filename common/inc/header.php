@@ -25,6 +25,7 @@ include_once 'functions.php';
     <link href="css/coloring.css" rel="stylesheet" type="text/css" >
     <!-- color scheme -->
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body class="dark-scheme">
