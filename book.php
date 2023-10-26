@@ -243,9 +243,9 @@ include_once './common/inc/header.php';
                                         </div>
 
                                         <div class="col-lg-12">
-                                            <div class="g-recaptcha" data-sitekey="6LdhF9AoAAAAAG-Bqr84uLX7F6q4hk2uZ202yPyz"></div>
+                                            <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY ?>"></div>
                                             <p id='submit' class="mt20">
-                                                <input type='submit' id='send_message' value='Submit Form' class="btn-main">
+                                                <input type='submit' id='send_message' value='Book' class="btn-main">
                                             </p>
                                         </div>
                                     </div>

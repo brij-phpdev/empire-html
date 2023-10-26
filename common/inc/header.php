@@ -75,7 +75,8 @@ include_once 'functions.php';
                                     
                                     <!--<li><a class="menu-item" href="book.php">Book Now</a></li>-->
                                     <!--<li><a class="menu-item" href="blog.php">Blog</a></li>-->
-                                    <li><a class="menu-item" href="contact.php">Contact</a></li>
+                                    <li><a class="menu-item" href="franchise.php">Partner with us</a></li>
+                                    <!--<li><a class="menu-item" href="contact.php">Contact</a></li>-->
                                     <li><a class="menu-item" target="_blank" href="<?php echo SHOP_URL ?>">Shop</a>
                                 </ul>
                             </div>

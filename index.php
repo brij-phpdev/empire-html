@@ -389,9 +389,9 @@ include_once './common/inc/header.php';
 
 
                 <div class="col-md-6 offset-3">
-                    <h2><span class="text">Shop Now</span></h2>
+                    <h2><span class="text">Appointment</span></h2>
                     <p class="">Elevate your style with our skilled hair artisans, crafting the flawless EMPIRE signature cut, tailored just for you. Indulge in a stunning blow-dry, enriched by our premium label. haircare range.</p>
-                    <a href="<?php echo SHOP_URL ?>" class="btn-main wow fadeInRight" data-wow-delay=".5s">Shop Now</a>
+                    <a href="book.php" class="btn-main wow fadeInRight" data-wow-delay=".5s">Book now</a>
                 </div>
 
             </div>
@@ -399,7 +399,7 @@ include_once './common/inc/header.php';
     </section>
 
 
-    <section id="blog-content" class=""  data-bgcolor="#0000" aria-label="section">
+    <section id="blog-content" class="d-none"  data-bgcolor="#0000" aria-label="section">
         <div class="container">
           
             <div class="row">
@@ -429,7 +429,7 @@ include_once './common/inc/header.php';
                                     <img src="images/blog/1.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="mt-2">Unraveling the Enduring Charm and Evolution of Barbershops as Societal</h5>
+                                    <h5 class="blog-title mt-2">Unraveling the Enduring Charm and Evolution of Barbershops as Societal</h5>
                                     <p class="text-black">Lorem ipsum labore aliqua tempor quis amet dolor duis reprehenderit exercitation in mollit esse anim reprehenderit velit voluptate consequat nisi in occaecat veniam enim officia sit et excepteur ullamco veniam quis aute voluptate tempor officia qui.</p>
                                     <a class="btn-main" href="blog-single.html">Read More</a>
                                 </div>
@@ -450,7 +450,7 @@ include_once './common/inc/header.php';
                                     <img src="images/blog/2.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="mt-2">From Historical Traditions to Modern Hubs of Style, Culture, and Connection</h5>
+                                    <h5 class="blog-title mt-2">From Historical Traditions to Modern Hubs of Style, Culture, and Connection</h5>
                                     <p class="text-black">Lorem ipsum labore aliqua tempor quis amet dolor duis reprehenderit exercitation in mollit esse anim reprehenderit velit voluptate consequat nisi in occaecat veniam enim officia sit et excepteur ullamco veniam quis aute voluptate tempor officia qui.</p>
                                     <a class="btn-main" href="blog-single.html">Read More</a>
                                 </div>
@@ -471,7 +471,7 @@ include_once './common/inc/header.php';
                                     <img src="images/blog/3.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="mt-2">A Timeless Journey through the Evolution, Artistry, and Community</h5>
+                                    <h5 class="blog-title mt-2">A Timeless Journey through the Evolution, Artistry, and Community</h5>
                                     <p class="text-black">Lorem ipsum labore aliqua tempor quis amet dolor duis reprehenderit exercitation in mollit esse anim reprehenderit velit voluptate consequat nisi in occaecat veniam enim officia sit et excepteur ullamco veniam quis aute voluptate tempor officia qui.</p>
                                     <a class="btn-main" href="blog-single.html">Read More</a>
                                 </div>

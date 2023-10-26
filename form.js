@@ -58,5 +58,56 @@ $(function()
                 dataType: 'json' 
             });        
         
+      });
+      
+      
+	$('#job_form').submit(function(e)
+      {
+        e.preventDefault();
+
+        $form = $(this);
+        //show some response on the button
+        $('button[type="submit"]', $form).each(function()
+        {
+            $btn = $(this);
+            $btn.prop('type','button' ); 
+            $btn.prop('orig_label',$btn.text());
+            $btn.text('Sending ...');
+        });
+        
+
+                    $.ajax({
+                type: "POST",
+                url: 'job_post.php',
+                data: $form.serialize(),
+                success: after_form_submitted,
+                dataType: 'json' 
+            });        
+        
+      });	
+      
+	$('#franchise_form').submit(function(e)
+      {
+        e.preventDefault();
+
+        $form = $(this);
+        //show some response on the button
+        $('button[type="submit"]', $form).each(function()
+        {
+            $btn = $(this);
+            $btn.prop('type','button' ); 
+            $btn.prop('orig_label',$btn.text());
+            $btn.text('Sending ...');
+        });
+        
+
+                    $.ajax({
+                type: "POST",
+                url: 'franchise_post.php',
+                data: $form.serialize(),
+                success: after_form_submitted,
+                dataType: 'json' 
+            });        
+        
       });	
 });

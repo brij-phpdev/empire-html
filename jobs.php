@@ -43,42 +43,7 @@ include_once './common/inc/process.php';
         </div>
     </section>
 
-    <section aria-label="section" class="no-bottom">
-        <div class="wow fadeInRight d-flex">
-            <div class="de-marquee-list wow">
-                <div class="d-item">
-                    <span class="d-item-txt">Slickback</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                    <span class="d-item-txt">Classic Quiff</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                    <span class="d-item-txt">Pompadour</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                    <span class="d-item-txt">Fringe</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                    <span class="d-item-txt">Beard Trim</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                    <span class="d-item-txt">Curly Fade</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                    <span class="d-item-txt">Undercut</span>
-                    <span class="d-item-display">
-                        <i class="d-item-block"></i>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     
     <section class=" jarallax">
@@ -160,7 +125,7 @@ include_once './common/inc/process.php';
                                     <input type="hidden" name="ps_str_task" value="<?php echo $ps_str_task ?>" />
 
                                     <div id="success_message" class='success'>
-                                        Your message has been sent successfully. Refresh this page if you want to send more messages.
+                                        Job application submitted successfully. Refresh this page if you want to send more messages.
                                     </div>
                                     <div id="error_message" class='error'>
                                         Sorry there was an error sending your form.
@@ -175,7 +140,45 @@ include_once './common/inc/process.php';
                 <div class="de-gradient-edge-bottom"></div>
             </section>
     
-    <section class="jarallax" style="display: none;">
+    
+    <section aria-label="section" class="no-bottom">
+        <div class="wow fadeInRight d-flex">
+            <div class="de-marquee-list wow">
+                <div class="d-item">
+                    <span class="d-item-txt">Slickback</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                    <span class="d-item-txt">Classic Quiff</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                    <span class="d-item-txt">Pompadour</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                    <span class="d-item-txt">Fringe</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                    <span class="d-item-txt">Beard Trim</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                    <span class="d-item-txt">Curly Fade</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                    <span class="d-item-txt">Undercut</span>
+                    <span class="d-item-display">
+                        <i class="d-item-block"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--    <section class="jarallax" style="display: none;">
         <div class="de-gradient-edge-top"></div>
         <div class="de-gradient-edge-bottom"></div>
         <img src="images/background/1.jpg" class="jarallax-img" alt="">
@@ -269,7 +272,7 @@ include_once './common/inc/process.php';
                 </form>
             </div>
         </div>
-    </section>
+    </section>-->
 
 </div>
 <!-- content close -->

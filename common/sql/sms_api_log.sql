@@ -16,3 +16,6 @@ CREATE TABLE IF NOT EXISTS `fast2sms_api_log`
 
 
 CREATE TABLE `job_applications` (`id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(100) NULL , `email` VARCHAR(150) NULL , `phone` VARCHAR(15) NULL , `experience_year` INT(4) NOT NULL DEFAULT '0' , `experience_month` INT(4) NOT NULL DEFAULT '0' , `expertise` VARCHAR(150) NULL , `reference` VARCHAR(150) NULL , `source` TINYINT(4) NOT NULL DEFAULT '1' , `cadidate_resume` VARCHAR(255) NULL , `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+INSERT INTO `job_applications` (`id`, `name`, `email`, `phone`, `experience_year`, `experience_month`, `expertise`, `reference`, `source`, `cadidate_resume`, `created_at`) VALUES (NULL, 'dummy', 'dummy@dummy', 'phone', '1', '2', 'hair cut', 'google', '1', 'file_location', current_timestamp());

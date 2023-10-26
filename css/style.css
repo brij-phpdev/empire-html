@@ -18519,7 +18519,10 @@ img {
 .main-page .title{
     color: var(--primary-color);
 }
-.main-page .title p{font-size: 14px;}
+.main-page .title p,#blog-content p.text-black{font-size: 14px;}
 .blog-item .d-date{position: relative; top: 30px; display: flex;}
 .blog-item h5{ color: var(--primary-color); }
 #blog-content h2 span.title {color: var(--primary-color); }
+#blog-content h5.blog-title {
+    font-family: var(--body-font)!important; 
+}

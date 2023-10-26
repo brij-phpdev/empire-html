@@ -54,7 +54,7 @@ include_once './common/inc/process.php';
                 <div class="col-lg-6 offset-lg-3">
 
                     <div class="d-sch-table">
-                        <h2 class="wow fadeIn text-center">Benefits of Joining as a Partner Salon</h2>
+                        <h2 class="wow fadeIn text-center" style="font-size: 22px!important;">Benefits of Joining as a Partner Salon</h2>
                         <div class="de-separator"></div>
                         <p class="lead">
                             By becoming an Empire Salon Partner, you gain access to:
@@ -110,7 +110,7 @@ include_once './common/inc/process.php';
                                 <div class="col-lg-12 mb10">
                                     <div class="field-set">
                                         Property type
-                                        <select name='type' id='type' class="form-control" required="">
+                                        <select name='property_type' id='property_type' class="form-control" required="">
                                             <option value="Owned">Owned</option>
                                             <option value="Rented">Rented</option>
                                             <option value="Leased">Leased</option>
@@ -181,7 +181,7 @@ include_once './common/inc/process.php';
                             <input type="hidden" name="ps_str_task" value="<?php echo $ps_str_task ?>" />
 
                             <div id="success_message" class='success'>
-                                Your message has been sent successfully. Refresh this page if you want to send more messages.
+                                You have applied successfully. Refresh this page if you want to send more messages.
                             </div>
                             <div id="error_message" class='error'>
                                 Sorry there was an error sending your form.

@@ -4,6 +4,7 @@ include_once './common/inc/config.php';
 include_once './common/inc/database.php';
 
 //print_r($_POST);
+//die;
 
 // lets check if user exists if not then create user first... to pick the id
 
