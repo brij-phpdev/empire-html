@@ -5,7 +5,7 @@ $(document).ready(function ($) {
     
     $('.open-popup-link').magnificPopup({
                 type:'inline',
-                midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+                midClick: true 
           });
     
     $(".waitSpinner").hide();
@@ -150,7 +150,7 @@ function showPopUp()
     
     if(typeof wantedCookie === "undefined"){
 //        alert('here undefined');
-//        $("#popupLogin").stop().slideToggle('slow');
+        $("#sms-popup").show();
 //          showPopUp();  
         return false;
     }

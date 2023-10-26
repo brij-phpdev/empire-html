@@ -54,7 +54,7 @@ include_once './common/inc/database.php';
                                 .mysqli_error($link); 
     }
     if($bookingId){
-        echo "success";
+        echo json_encode(['result'=>'success']);
         die;
     }
 

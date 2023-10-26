@@ -7,29 +7,38 @@
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/database.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/index-3.html</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/functions.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/src/FormHandler.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/css/style.css</file>
             <file>file:/Applications/XAMPP/htdocs/empire/about-prev.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/css/colors/scheme-01.css</file>
             <file>file:/Applications/XAMPP/htdocs/empire/about.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/booking.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/js/callSendSMS.js</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/header.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/services.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/sendSMS.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/index-prev.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/team.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/contact.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/index-2.html</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/form.js</file>
             <file>file:/Applications/XAMPP/htdocs/empire/services.html</file>
             <file>file:/Applications/XAMPP/htdocs/empire/contact-prev.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/handler.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/service-single.html</file>
             <file>file:/Applications/XAMPP/htdocs/empire/franchise_1.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/testimonials.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/index.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/job_post.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/jobs.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/footer.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/franchise.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/booking_post.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/common/sql/sms_api_log.sql</file>
             <file>file:/Applications/XAMPP/htdocs/empire/common/inc/process.php</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/common/inc/config.php</file>
             <file>file:/Applications/XAMPP/htdocs/empire/blog.html</file>
+            <file>file:/Applications/XAMPP/htdocs/empire/email.php</file>
         </group>
     </open-files>
 </project-private>

@@ -78,7 +78,7 @@ mysqli_free_result($res);
                                 .mysqli_error($link); 
     }
     if($bookingId){
-        echo "success";
+        echo json_encode(['result'=>'success']);
         die;
     }
 

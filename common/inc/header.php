@@ -77,8 +77,8 @@ include_once 'functions.php';
                                     <!--<li><a class="menu-item" href="blog.php">Blog</a></li>-->
                                     <li><a class="menu-item" href="franchise.php">Partner with us</a></li>
                                     <!--<li><a class="menu-item" href="contact.php">Contact</a></li>-->
-                                    <li><a class="menu-item" target="_blank" href="<?php echo SHOP_URL ?>">Shop</a>
-                                        <!--<li><a class="verifyOTP menu-item" href="#popuplogincontainer" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a></li>-->
+                                    <!--<li><a class="menu-item" target="_blank" href="<?php echo SHOP_URL ?>">Shop</a>-->
+                                        <li><a class="verifyOTP menu-item" href="#popuplogincontainer" data-link="<?php echo SHOP_URL ?>" target="_blank" >Shop</a></li>
                                 </ul>
                             </div>
                             <div class="de-flex-col">
