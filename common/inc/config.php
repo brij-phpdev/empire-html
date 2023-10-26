@@ -19,3 +19,4 @@ define('DB_USER_PASSWORD','8}_!.)%%Atnh65@11Oct23');
 define('DB_NAME','u963541063_salon_booking');
 
 define('FAST2SMS_API_KEY','KI80VaOYdrLA5Tm1ZyqucxW6ifsoXRNSD2CBPhtJpkw7Q9bGHFpLIyMKFiASc09DgbdH7wtoWOTU8keZ');
+define('RECAPTCHA_SITE_KEY','6LdzJdAoAAAAAK4WMtskrtsExhaMM4zCwslMre6H');
