@@ -2,7 +2,7 @@
 
 define('SITE_URL','https://empire.theroyal.org.in');
 define('SITE_BOOK_URL','https://empirebook.theroyal.org.in');
-define('SHOP_URL','https://shop.theroyal.org.in/en3/cogito3');
+define('SHOP_URL','https://shop.theroyal.org.in/en3/');
 define('WHATSAPP_URL','https://wa.link/ks2xy9');
 
 define('EMAIL','empiresalonagra@gmail.com');
