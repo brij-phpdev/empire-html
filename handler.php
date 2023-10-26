@@ -6,6 +6,8 @@ error_reporting(E_ALL);
 Tested working with PHP5.4 and above (including PHP 7 )
 
  */
+
+include_once './common/inc/config.php';
 require_once './vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
@@ -20,9 +22,9 @@ $validator->field('Message')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
+$pp->getReCaptcha()->initSecretKey(RECAPTCHA_SITE_SECRET);
 
 
-$pp->sendEmailTo('your-email-here'); // ← Your email here
+$pp->sendEmailTo(ADMIN_EMAIL); // ← Your email here
 
 echo $pp->process($_POST);

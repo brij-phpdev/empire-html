@@ -79,7 +79,7 @@ include_once './common/inc/header.php';
                                     <div class="field-set mb20">
                                         <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY ?>"></div>
+<!--                                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY ?>"></div>-->
                                     <div id='submit' class="mt20">
                                         <input type='submit' id='send_message' value='Send Message' class="btn-main">
                                     </div>

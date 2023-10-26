@@ -6,6 +6,7 @@ define('SHOP_URL','https://shop.theroyal.org.in/en3/');
 define('WHATSAPP_URL','https://wa.link/ks2xy9');
 
 define('EMAIL','empiresalonagra@gmail.com');
+define('ADMIN_EMAIL','mb.consulting.031220@gmail.com');
 define('PHONE','+91-98970 33321');
 define('ADDRESS','2nd Floor, Shanti Emporio, Ramnagar Colony,<br/> Civil Lines, Agra,<br/> Uttar Pradesh <br/>282002');
 
@@ -20,3 +21,4 @@ define('DB_NAME','u963541063_salon_booking');
 
 define('FAST2SMS_API_KEY','KI80VaOYdrLA5Tm1ZyqucxW6ifsoXRNSD2CBPhtJpkw7Q9bGHFpLIyMKFiASc09DgbdH7wtoWOTU8keZ');
 define('RECAPTCHA_SITE_KEY','6LdzJdAoAAAAAK4WMtskrtsExhaMM4zCwslMre6H');
+define('RECAPTCHA_SITE_SECRET','6LdzJdAoAAAAAM4PAdjrbF0zfb7SkUQs13BS1Cxh');
