@@ -9909,7 +9909,7 @@ p.lead {
 }
 
 p.lead.big{
-  font-size: 24px !important;
+  font-size: 18px !important;
 }
 
 .dark-scheme p.lead {
@@ -18515,3 +18515,11 @@ img {
     color: transparent;
     -webkit-text-stroke: 1px var(--primary-color);
 }
+.text-medium{font-size: 48px!important;}
+.main-page .title{
+    color: var(--primary-color);
+}
+.main-page .title p{font-size: 14px;}
+.blog-item .d-date{position: relative; top: 30px; display: flex;}
+.blog-item h5{ color: var(--primary-color); }
+#blog-content h2 span.title {color: var(--primary-color); }

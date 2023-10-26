@@ -57,7 +57,7 @@ include_once './common/inc/header.php';
                                 If you got any questions, please do not hestitae to send us a message.
                                 </p>
 
-                                <form name="contactForm" id="contact_form" class="form-border position-relative z1000" method="post" action="#">
+                                <form name="contactForm" id="contact_form" class="form-border position-relative z1000" method="post" action="email.php">
                                     <div class="row">
                                         <div class="col-lg-12 mb10">
                                             <div class="field-set">

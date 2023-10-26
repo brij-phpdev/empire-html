@@ -3,19 +3,6 @@ include_once './common/inc/header.php';
 include_once './common/inc/database.php';
 ?>
 
-<!-- subheader -->
-<section id="subheader" class="subh-center" data-stellar-background-ratio=".2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Our Services</h1>
-                <h4>Discover What We Do</h4>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- subheader close -->
-
 <!-- content begin -->
 
 
@@ -27,7 +14,7 @@ include_once './common/inc/database.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 text-center">
-                    <h1>Services</h1>
+                    <h1>Our Services</h1>
                     <div class="de-separator"></div>
                 </div>
             </div>
@@ -40,6 +27,7 @@ include_once './common/inc/database.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12" data-jarallax-element="-20">
+                    
                     <p class="lead big wow fadeInUp">Schedule a free pre-appointment consultation with our salon's beauty experts to discuss your specific requirements and tailor your beauty services for a personalized experience.
 
 
@@ -50,6 +38,135 @@ include_once './common/inc/database.php';
         </div>
     </section>
 
+    
+    <section id="section-trending" class="pt80">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2 text-center">
+                            <h2 class="wow fadeIn">Trending Styles</h2>
+                            <div class="de-separator"></div>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12" data-jarallax-element="-20">
+                            <div class="d-carousel wow fadeInRight" >
+                                <div id="item-carousel-big" class="owl-carousel no-hide owl-center" data-wow-delay="1s">
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">CUT & STYLE</span>
+                                                <span class="c-item_wm">#1</span>
+                                            </span>
+                                        
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/1.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Signature Cut</span>
+                                                <span class="c-item_wm">#2</span>
+                                            </span>
+                                        
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/2.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Barbering</span>
+                                                <span class="c-item_wm">#3</span>
+                                            </span>
+                                        
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/3.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>  
+
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Afro Textured Hair</span>
+                                                <span class="c-item_wm">#4</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/4.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>                      
+
+
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">COLORING</span>
+                                                <span class="c-item_wm">#5</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/5.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Signature Colour</span>
+                                                <span class="c-item_wm">#6</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/6.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Signature Balayage</span>
+                                                <span class="c-item_wm">#7</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/7.jpg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="c-item">                            
+                                        <a href="#">
+                                            <span class="c-item_info">
+                                                <span class="c-item_title">Signature Highlights</span>
+                                                <span class="c-item_wm">#8</span>
+                                            </span>
+                                            
+                                            <div class="c-item_wrap">
+                                                <img src="images/hairstyles/8.jpeg" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                    <div class="d-arrow-left mod-a"><i class="fa fa-angle-left"></i></div>
+                                    <div class="d-arrow-right mod-a"><i class="fa fa-angle-right"></i></div>
+                            </div>
+                            <div class="spacer-double"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
 
     <section>
         <div class="container">
@@ -87,6 +204,35 @@ include_once './common/inc/database.php';
     <section>
         <div class="container">
             <div class="row">
+                <div class="col-4">
+                    <img src="images/hairstyles/3.jpg" class="lazy img-fluid" alt="">
+                    <h5><span class="service_item-title text-medium">Barbering</span></h5>
+                    <p class="lead">For a swift, customized EMPIRE signature barbered cut, trust our experts. A quick and simple finish, perfectly suited to you, enriched with the finesse of our professional label. haircare products.</p>
+                </div>   
+                <div class="col-4">
+                    <img src="images/hairstyles/4.jpg" class="lazy img-fluid" alt="">
+                    <h5><span class="service_item-title text-medium">Afro Textured</span></h5>
+                    <p class="lead">Celebrate your unique natural textures or opt for a relaxing transformation. Our artistry creates exquisite, edgy yet practical shapes, enriched with colors that nourish, fortify, and enhance those beautiful curls.</p>
+                </div>   
+                <div class="col-4">
+                    <img src="images/hairstyles/5.jpg" class="lazy img-fluid" alt="">
+                    <h5><span class="service_item-title text-medium">COLORING</span></h5>
+                    <p class="lead">Our color specialist will tune in to your color aspirations and requirements, all while evaluating your skin tone, eye shade, and hair texture. This personalized approach leads to the ideal EMPIRE signature hue for you in Agra.</p>
+                </div>   
+                
+<!--                <div class="col-6">
+                                                <h5><span class="service_item-title">Barbering</span></h5>
+                    <p class="lead">For a swift, customized EMPIRE signature barbered cut, trust our experts. A quick and simple finish, perfectly suited to you, enriched with the finesse of our professional label. haircare products.</p>
+                    <a class="btn-main" href="book.php">Book Service</a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    
+    <!-- started from here -->
+<!--    <section>
+        <div class="container">
+            <div class="row">
                 <div class="col-md-6">
                     <img src="images/hairstyles/3.jpg" class="lazy img-fluid" alt="">
                 </div>   
@@ -98,9 +244,9 @@ include_once './common/inc/database.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
-    <section>
+<!--    <section>
         <div class="container">
             <div class="row">
                   
@@ -115,9 +261,9 @@ include_once './common/inc/database.php';
                 </div> 
             </div>
         </div>
-    </section>
+    </section>-->
     
-    <section>
+<!--    <section>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -131,7 +277,7 @@ include_once './common/inc/database.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section>
         <div class="container">
